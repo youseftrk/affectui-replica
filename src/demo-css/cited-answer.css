@@ -1,0 +1,81 @@
+:where(.ui-cac) button { margin: 0px; padding: 0px; border: 0px; background: none; font: inherit; color: inherit; text-align: inherit; cursor: pointer; -webkit-tap-highlight-color: transparent; }
+.calc__field:has(input:focus-visible) { outline: 2px solid var(--focus-ring); outline-offset: 2px; }
+.icon-btn--card { background: var(--card); box-shadow: 0 0 0 1px var(--border); }
+.card { content-visibility: auto; contain-intrinsic-size: auto 320px; --card-inset: 6px; padding: var(--card-inset) var(--card-inset) 0; border-radius: var(--radius-card); background: var(--card); border: 1px solid var(--card-stroke); cursor: pointer; flex-direction: column; scroll-margin-top: 16px; display: flex; }
+.card__stage { aspect-ratio: 16 / 10; border-radius: calc(var(--radius-card) - var(--card-inset)); background: var(--preview); width: 100%; min-width: 0px; min-height: 230px; box-shadow: inset 0 0 0 1px var(--card-stroke); position: relative; overflow: hidden; }
+.card__still { object-fit: cover; width: 100%; height: 100%; position: absolute; inset: 0px; }
+.card__tag, .card__pro { border-radius: var(--radius-pill); align-items: center; height: 22px; padding: 0px 8px; font-size: 11px; font-weight: 500; display: inline-flex; position: absolute; top: 10.5px; }
+.card__tag { background: var(--card); color: var(--text-muted); box-shadow: 0 0 0 1px var(--border-soft); left: 10.5px; }
+.card__pro { padding: 0px 9px 0px 7px; right: 10.5px; }
+.card__footer { justify-content: space-between; align-items: center; gap: 12px; padding: 10px 4px 10px 11.5px; display: flex; }
+.card__info { border-radius: 6px; min-width: 0px; }
+.card__info:hover .card__title { text-underline-offset: 3px; text-decoration: underline; }
+.card__title { font-size: 13px; font-weight: 500; line-height: 18.571px; }
+.card__desc { color: var(--text-muted); white-space: nowrap; text-overflow: ellipsis; font-size: 13px; overflow: hidden; }
+.card__actions { gap: 3.5px; display: flex; }
+.login__card { border-radius: var(--radius-card); background: var(--card); border: 1px solid var(--card-stroke); text-align: center; flex-direction: column; align-items: center; width: 100%; max-width: 360px; padding: 32px 28px 24px; display: flex; box-shadow: rgba(0, 0, 0, 0.04) 0px 1px 1.5px; }
+@media (max-width: 640px){.card__stage { aspect-ratio: auto; height: 260px; min-height: 0px; }}
+.related__card { background: var(--card); box-shadow: 0 0 0 1px var(--border); transition: box-shadow var(--duration) ease, transform var(--duration) var(--ease-out); border-radius: 12px; flex-direction: column; gap: 4px; padding: 14px; display: flex; }
+.related__card:hover { box-shadow: 0 0 0 1px var(--border), var(--lift-shadow); }
+.related__card > svg { color: var(--text-subtle); align-self: flex-end; }
+.related__cat { color: var(--text-subtle); font-size: 11px; }
+.grid.related-cards { grid-template-columns: repeat(2, minmax(0px, 1fr)); padding-top: 8px; }
+@media (max-width: 760px){.grid.related-cards { grid-template-columns: minmax(0px, 1fr); }}
+.card__new { border-radius: var(--radius-pill); background: var(--muted-bg); box-shadow: inset 0 0 0 1px var(--border-soft); vertical-align: 2px; color: var(--text-muted); margin-left: 8px; padding: 0px 7px; font-size: 11px; font-weight: 500; line-height: 18px; display: inline-block; }
+.promo__card { border: 1px solid var(--border); background-position-x: ; background-position-y: ; background-size: ; background-repeat: ; background-attachment: ; background-origin: ; background-clip: ; background-color: ; text-align: center; background-image: radial-gradient(70% 55% at 50% 0%, color-mix(in srgb, var(--pro-from) 12%, transparent), transparent 70%); border-radius: 18px; justify-items: center; gap: 14px; padding: 32px 26px 24px; display: grid; position: relative; }
+.upsell__card { background: var(--card); border-radius: 20px; grid-template-columns: minmax(0px, 1fr) minmax(0px, 1fr); gap: 8px; padding: 8px; display: grid; position: relative; overflow: hidden; box-shadow: rgba(0, 0, 0, 0.08) 0px 0px 0px 0.5px, rgba(0, 0, 0, 0.05) 0px 1px 2px, rgba(0, 0, 0, 0.18) 0px 24px 64px; }
+:root[data-theme="dark"] .upsell__card { box-shadow: rgba(255, 255, 255, 0.08) 0px 0px 0px 1px, rgba(0, 0, 0, 0.5) 0px 24px 64px; }
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .upsell__card { box-shadow: rgba(255, 255, 255, 0.08) 0px 0px 0px 1px, rgba(0, 0, 0, 0.5) 0px 24px 64px; }}
+@media (max-width: 760px){.upsell__card { background: var(--card); grid-template-columns: minmax(0px, 1fr); }}
+.screen-stage__canvas { transform-origin: 0px 0px; position: absolute; top: 0px; left: 0px; }
+.screen-stage__canvas > * { height: 100%; }
+.grid--screens .card__stage { min-height: 0px; }
+@media (max-width: 640px){.grid--screens .card__stage { aspect-ratio: 16 / 10; height: auto; }}
+.grid--screens .card__tag { display: none; }
+.calc { padding-top: 96px; }
+.calc__head { text-align: center; justify-items: center; gap: 10px; margin-bottom: 28px; display: grid; }
+.calc__head h2 { letter-spacing: -0.01em; text-wrap: balance; margin: 0px; font-size: 30px; font-weight: 500; line-height: 1.2; }
+.calc__head p { max-width: 520px; color: var(--text-muted); text-wrap: balance; margin: 0px; font-size: 15px; line-height: 1.55; }
+.calc__tray { background: var(--guarantee-bg,var(--muted-bg)); border-radius: 22px; max-width: 760px; margin: 0px auto; padding: 6px; }
+.calc__card { background: var(--card); box-shadow: 0 0 0 1px var(--tier-stroke,var(--panel-stroke)), 0 1px 0 #00000008; border-radius: 17px; grid-template-columns: minmax(0px, 1.15fr) minmax(0px, 1fr); display: grid; overflow: hidden; }
+.calc__inputs { align-content: center; gap: 8px; padding: 24px; display: grid; }
+.calc__field { background: var(--guarantee-bg,var(--muted-bg)); touch-action: pan-y; cursor: ew-resize; user-select: none; -webkit-tap-highlight-color: transparent; border-radius: 14px; grid-template-columns: 108px minmax(0px, 1fr) 52px; align-items: center; gap: 14px; height: 52px; padding: 0px 16px; transition: box-shadow 0.16s; display: grid; }
+.calc__name { color: var(--text-muted); font-size: 13px; line-height: 16px; }
+.calc__field output { text-align: right; color: var(--text); font-variant-numeric: tabular-nums; font-size: 15px; font-weight: 500; }
+.calc__scale { height: 100%; position: relative; }
+.calc__ticks { justify-content: space-between; align-items: center; display: flex; position: absolute; inset: 0px; }
+.calc__ticks span { background: var(--text); opacity: 0.16; border-radius: 1px; width: 1.5px; height: 8px; transition: opacity 0.16s, height 0.16s; }
+.calc__ticks span[data-major] { height: 14px; }
+.calc__ticks span[data-on] { opacity: 0.55; }
+.calc__mark { top: 50%; left: var(--fill); background: var(--text); pointer-events: none; border-radius: 1px; width: 2px; height: 26px; position: absolute; transform: translate(-50%, -50%); }
+.calc__field:hover .calc__ticks span[data-on] { opacity: 0.7; }
+.calc__scale input[type="range"] { opacity: 0; pointer-events: none; width: 100%; height: 100%; margin: 0px; position: absolute; inset: 0px; }
+@media (max-width: 480px){.calc__field { grid-template-columns: 76px minmax(0px, 1fr) 44px; gap: 10px; padding: 0px 12px; }}
+@media (max-width: 480px){.calc__name { font-size: 12px; }}
+.calc__result { flex-direction: column; justify-content: center; gap: 4px; padding: 28px 30px; display: flex; position: relative; }
+.calc__result::before { content: ""; background: var(--tier-stroke,var(--panel-stroke)); width: 1px; position: absolute; top: 28px; bottom: 28px; left: 0px; }
+.calc__label { color: var(--text-muted); font-size: 13px; }
+.calc__big { letter-spacing: -0.03em; font-variant-numeric: tabular-nums; font-size: 40px; font-weight: 500; line-height: 1.1; }
+.calc__note { color: var(--text-subtle); font-variant-numeric: tabular-nums; font-size: 13px; }
+.calc__compare { background: var(--guarantee-bg,var(--muted-bg)); border-radius: 14px; gap: 10px; margin-top: 20px; padding: 14px 16px; display: grid; }
+.calc__pro, .calc__save { justify-content: space-between; align-items: center; gap: 12px; font-size: 14px; display: flex; }
+.calc__pro span, .calc__save span { color: var(--text-muted); align-items: center; gap: 8px; display: inline-flex; }
+.calc__pro b { font-variant-numeric: tabular-nums; font-weight: 500; }
+.calc__pro .calc__bolt { background: var(--pro-bg); width: 18px; height: 18px; box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--pro-from) 16%, transparent), 0 1px 0 color-mix(in srgb, var(--pro-from) 14%, transparent); color: var(--pro-from); border-radius: 50%; place-items: center; display: grid; }
+.calc__save b { letter-spacing: -0.01em; color: rgb(10, 138, 95); font-variant-numeric: tabular-nums; background: rgba(10, 138, 95, 0.1); border-radius: 7px; padding: 2px 9px; font-size: 18px; font-weight: 500; line-height: 26px; }
+:where(.dark, [data-theme="dark"]) .calc__save b { color: rgb(79, 209, 161); background: rgba(79, 209, 161, 0.14); }
+@media (max-width: 760px){.calc { padding-top: 72px; }}
+@media (max-width: 760px){.calc__head h2 { font-size: 24px; }}
+@media (max-width: 760px){.calc__card { grid-template-columns: minmax(0px, 1fr); }}
+@media (max-width: 760px){.calc__inputs { padding: 16px; }}
+@media (max-width: 760px){.calc__result { padding: 22px 20px; }}
+@media (max-width: 760px){.calc__result::before { width: auto; height: 1px; inset: 0px 20px auto; }}
+@media (max-width: 760px){.calc__big { font-size: 34px; }}
+.card__badges { pointer-events: none; align-items: center; gap: 6px; display: flex; position: absolute; top: 10.5px; right: 10.5px; }
+.card__badges .card__pro { position: static; }
+.card__styles { border-radius: var(--radius-pill); background: var(--muted-bg); height: 22px; color: var(--text-muted); align-items: center; padding: 0px 8px; font-size: 11px; font-weight: 500; display: inline-flex; }
+.stage__look { place-items: inherit; width: 100%; min-width: 0px; height: 100%; display: grid; }
+.ca-demo { grid-template-columns: min(440px, 100%); place-content: start center; width: 100%; height: 640px; display: grid; }
+.stage:has(.ca-demo) { height: 740px; }
+@media (max-width: 760px){.ca-demo { height: auto; }}
+@media (max-width: 760px){.stage:has(.ca-demo) { align-items: start; height: 1040px; padding: 120px 16px 24px; }}

@@ -1,0 +1,7 @@
+:where(.ui-agfc) button { margin: 0px; padding: 0px; border: 0px; background: none; font: inherit; color: inherit; text-align: inherit; cursor: pointer; -webkit-tap-highlight-color: transparent; }
+.agf-demo { grid-template-columns: minmax(0px, 680px); justify-content: center; width: 100%; display: grid; }
+.stage:has(.agf-demo) { height: 680px; }
+.stage .agf-demo { align-self: start; margin-top: 64px; }
+@media (max-width: 760px){.stage:has(.agf-demo) { height: 1060px; padding-left: 12px; padding-right: 12px; }}
+@media (max-width: 760px){.stage .agf-demo { margin-top: 84px; }}
+.agf-demo :is(.ui-agf, .ui-agfc) { margin-inline: auto; }

@@ -1,0 +1,5 @@
+.atg-demo { grid-template-columns: minmax(0px, 720px); justify-content: center; width: 100%; display: grid; }
+.stage:has(.atg-demo) { height: 600px; }
+.stage .atg-demo { align-self: center; padding-inline: 24px; }
+@media (max-width: 760px){.stage:has(.atg-demo) { height: auto; padding-bottom: 12px; padding-left: 12px; padding-right: 12px; }}
+@media (max-width: 760px){.stage .atg-demo { margin-top: 84px; margin-bottom: 36px; padding-inline: 0px; }}

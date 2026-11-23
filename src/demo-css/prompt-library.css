@@ -1,0 +1,8 @@
+:where(.ui-plic) button { margin: 0px; padding: 0px; border: 0px; background: none; font: inherit; color: inherit; text-align: inherit; cursor: pointer; -webkit-tap-highlight-color: transparent; }
+:where(.ui-plic) input { margin: 0px; padding: 0px; border: 0px; background: none; font: inherit; color: inherit; outline: none; }
+:where(.ui-plic) svg { display: block; flex: 0 0 auto; }
+.stage__look { place-items: inherit; width: 100%; min-width: 0px; height: 100%; display: grid; }
+.pli-demo { grid-template-columns: min(620px, 100%); place-content: start center; width: 100%; height: 340px; display: grid; }
+.stage:has(.pli-demo) { height: 480px; }
+@media (max-width: 760px){.pli-demo { height: auto; }}
+@media (max-width: 760px){.stage:has(.pli-demo) { align-items: start; height: 820px; padding: 120px 16px 24px; }}

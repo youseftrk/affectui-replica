@@ -1,0 +1,961 @@
+[
+ {
+  "s": "agent-checkpoints",
+  "ok": true,
+  "errs": [],
+  "len": 18598,
+  "kids": 46
+ },
+ {
+  "s": "agent-crew",
+  "ok": true,
+  "errs": [],
+  "len": 48167,
+  "kids": 293
+ },
+ {
+  "s": "agent-cursors",
+  "ok": true,
+  "errs": [],
+  "len": 17024,
+  "kids": 152
+ },
+ {
+  "s": "agent-findings",
+  "ok": true,
+  "errs": [],
+  "len": 32948,
+  "kids": 146
+ },
+ {
+  "s": "agent-fleet",
+  "ok": true,
+  "errs": [],
+  "len": 54952,
+  "kids": 321
+ },
+ {
+  "s": "agent-graph",
+  "ok": true,
+  "errs": [],
+  "len": 35090,
+  "kids": 222
+ },
+ {
+  "s": "agent-handoff",
+  "ok": true,
+  "errs": [],
+  "len": 50495,
+  "kids": 406
+ },
+ {
+  "s": "agent-inbox",
+  "ok": true,
+  "errs": [],
+  "len": 16782,
+  "kids": 246
+ },
+ {
+  "s": "agent-lanes",
+  "ok": true,
+  "errs": [],
+  "len": 27273,
+  "kids": 168
+ },
+ {
+  "s": "agent-ledger",
+  "ok": true,
+  "errs": [],
+  "len": 13734,
+  "kids": 36
+ },
+ {
+  "s": "agent-monitor",
+  "ok": true,
+  "errs": [],
+  "len": 7897,
+  "kids": 47
+ },
+ {
+  "s": "agent-plan",
+  "ok": true,
+  "errs": [],
+  "len": 10053,
+  "kids": 142
+ },
+ {
+  "s": "agent-queue",
+  "ok": true,
+  "errs": [],
+  "len": 37302,
+  "kids": 226
+ },
+ {
+  "s": "agent-recap",
+  "ok": true,
+  "errs": [],
+  "len": 44246,
+  "kids": 195
+ },
+ {
+  "s": "agent-router",
+  "ok": true,
+  "errs": [],
+  "len": 27510,
+  "kids": 229
+ },
+ {
+  "s": "agent-sequence",
+  "ok": true,
+  "errs": [],
+  "len": 8916,
+  "kids": 90
+ },
+ {
+  "s": "agent-steering",
+  "ok": true,
+  "errs": [],
+  "len": 5911,
+  "kids": 73
+ },
+ {
+  "s": "agent-timing",
+  "ok": true,
+  "errs": [],
+  "len": 10299,
+  "kids": 144
+ },
+ {
+  "s": "agent-trail",
+  "ok": true,
+  "errs": [],
+  "len": 15437,
+  "kids": 103
+ },
+ {
+  "s": "agent-tree",
+  "ok": true,
+  "errs": [],
+  "len": 19959,
+  "kids": 102
+ },
+ {
+  "s": "agent-workbench",
+  "ok": true,
+  "errs": [],
+  "len": 14873,
+  "kids": 176
+ },
+ {
+  "s": "ai-answer",
+  "ok": true,
+  "errs": [],
+  "len": 9185,
+  "kids": 68
+ },
+ {
+  "s": "approval-card",
+  "ok": true,
+  "errs": [],
+  "len": 28728,
+  "kids": 55
+ },
+ {
+  "s": "approval-gates",
+  "ok": true,
+  "errs": [],
+  "len": 17876,
+  "kids": 129
+ },
+ {
+  "s": "autonomy-dial",
+  "ok": true,
+  "errs": [],
+  "len": 52888,
+  "kids": 163
+ },
+ {
+  "s": "avatar",
+  "ok": true,
+  "errs": [],
+  "len": 9310,
+  "kids": 88
+ },
+ {
+  "s": "away-summary",
+  "ok": true,
+  "errs": [],
+  "len": 12911,
+  "kids": 158
+ },
+ {
+  "s": "badge",
+  "ok": true,
+  "errs": [],
+  "len": 9059,
+  "kids": 60
+ },
+ {
+  "s": "billing-schedule",
+  "ok": true,
+  "errs": [],
+  "len": 5525,
+  "kids": 79
+ },
+ {
+  "s": "breadcrumb",
+  "ok": true,
+  "errs": [],
+  "len": 10907,
+  "kids": 33
+ },
+ {
+  "s": "breakdown-chart",
+  "ok": true,
+  "errs": [],
+  "len": 14403,
+  "kids": 232
+ },
+ {
+  "s": "button",
+  "ok": true,
+  "errs": [],
+  "len": 12894,
+  "kids": 92
+ },
+ {
+  "s": "card",
+  "ok": true,
+  "errs": [],
+  "len": 14777,
+  "kids": 52
+ },
+ {
+  "s": "change-summary",
+  "ok": true,
+  "errs": [],
+  "len": 3294,
+  "kids": 40
+ },
+ {
+  "s": "chat-composer",
+  "ok": true,
+  "errs": [],
+  "len": 66939,
+  "kids": 451
+ },
+ {
+  "s": "checkbox",
+  "ok": true,
+  "errs": [],
+  "len": 6477,
+  "kids": 71
+ },
+ {
+  "s": "cited-answer",
+  "ok": true,
+  "errs": [],
+  "len": 16734,
+  "kids": 85
+ },
+ {
+  "s": "code-block",
+  "ok": true,
+  "errs": [],
+  "len": 4627,
+  "kids": 79
+ },
+ {
+  "s": "collaboration-stream",
+  "ok": true,
+  "errs": [],
+  "len": 17473,
+  "kids": 229
+ },
+ {
+  "s": "color-picker",
+  "ok": true,
+  "errs": [],
+  "len": 8505,
+  "kids": 57
+ },
+ {
+  "s": "combobox",
+  "ok": true,
+  "errs": [],
+  "len": 7686,
+  "kids": 105
+ },
+ {
+  "s": "command-menu",
+  "ok": true,
+  "errs": [],
+  "len": 19049,
+  "kids": 214
+ },
+ {
+  "s": "comment-thread",
+  "ok": true,
+  "errs": [],
+  "len": 4039,
+  "kids": 49
+ },
+ {
+  "s": "comments-panel",
+  "ok": true,
+  "errs": [],
+  "len": 6704,
+  "kids": 82
+ },
+ {
+  "s": "commit-trail",
+  "ok": true,
+  "errs": [],
+  "len": 25862,
+  "kids": 341
+ },
+ {
+  "s": "compact-breakdown",
+  "ok": true,
+  "errs": [],
+  "len": 4270,
+  "kids": 60
+ },
+ {
+  "s": "conflict-radar",
+  "ok": true,
+  "errs": [],
+  "len": 22485,
+  "kids": 190
+ },
+ {
+  "s": "context-map",
+  "ok": true,
+  "errs": [],
+  "len": 8696,
+  "kids": 61
+ },
+ {
+  "s": "context-menu",
+  "ok": true,
+  "errs": [],
+  "len": 21885,
+  "kids": 115
+ },
+ {
+  "s": "context-window",
+  "ok": true,
+  "errs": [],
+  "len": 28622,
+  "kids": 315
+ },
+ {
+  "s": "cost-waterfall",
+  "ok": true,
+  "errs": [],
+  "len": 8679,
+  "kids": 75
+ },
+ {
+  "s": "data-table",
+  "ok": true,
+  "errs": [],
+  "len": 12935,
+  "kids": 164
+ },
+ {
+  "s": "date-picker",
+  "ok": true,
+  "errs": [],
+  "len": 4895,
+  "kids": 34
+ },
+ {
+  "s": "date-range-picker",
+  "ok": true,
+  "errs": [],
+  "len": 20173,
+  "kids": 239
+ },
+ {
+  "s": "decision-card",
+  "ok": true,
+  "errs": [],
+  "len": 64539,
+  "kids": 433
+ },
+ {
+  "s": "decision-inbox",
+  "ok": true,
+  "errs": [],
+  "len": 2486,
+  "kids": 32
+ },
+ {
+  "s": "decision-tree",
+  "ok": true,
+  "errs": [],
+  "len": 26304,
+  "kids": 196
+ },
+ {
+  "s": "delegate-board",
+  "ok": true,
+  "errs": [],
+  "len": 29378,
+  "kids": 217
+ },
+ {
+  "s": "dialog",
+  "ok": true,
+  "errs": [],
+  "len": 15588,
+  "kids": 86
+ },
+ {
+  "s": "diff-timeline",
+  "ok": true,
+  "errs": [],
+  "len": 4886,
+  "kids": 75
+ },
+ {
+  "s": "dropdown-menu",
+  "ok": true,
+  "errs": [],
+  "len": 20640,
+  "kids": 105
+ },
+ {
+  "s": "dropzone",
+  "ok": true,
+  "errs": [],
+  "len": 2933,
+  "kids": 31
+ },
+ {
+  "s": "email-draft",
+  "ok": true,
+  "errs": [],
+  "len": 3579,
+  "kids": 46
+ },
+ {
+  "s": "empty-state",
+  "ok": true,
+  "errs": [],
+  "len": 6959,
+  "kids": 32
+ },
+ {
+  "s": "experiment-card",
+  "ok": true,
+  "errs": [],
+  "len": 5481,
+  "kids": 68
+ },
+ {
+  "s": "fallback-chain",
+  "ok": true,
+  "errs": [],
+  "len": 29944,
+  "kids": 430
+ },
+ {
+  "s": "fan-out-grid",
+  "ok": true,
+  "errs": [],
+  "len": 23194,
+  "kids": 277
+ },
+ {
+  "s": "filter-menu",
+  "ok": true,
+  "errs": [],
+  "len": 8860,
+  "kids": 139
+ },
+ {
+  "s": "flow-builder",
+  "ok": true,
+  "errs": [],
+  "len": 18107,
+  "kids": 229
+ },
+ {
+  "s": "form-field",
+  "ok": true,
+  "errs": [],
+  "len": 8733,
+  "kids": 35
+ },
+ {
+  "s": "hover-card",
+  "ok": true,
+  "errs": [],
+  "len": 12691,
+  "kids": 79
+ },
+ {
+  "s": "icon-button",
+  "ok": true,
+  "errs": [],
+  "len": 12094,
+  "kids": 52
+ },
+ {
+  "s": "inline-diff",
+  "ok": true,
+  "errs": [],
+  "len": 5086,
+  "kids": 62
+ },
+ {
+  "s": "integration-picker",
+  "ok": true,
+  "errs": [],
+  "len": 14590,
+  "kids": 154
+ },
+ {
+  "s": "integration-settings",
+  "ok": true,
+  "errs": [],
+  "len": 5055,
+  "kids": 45
+ },
+ {
+  "s": "judge-bracket",
+  "ok": true,
+  "errs": [],
+  "len": 28467,
+  "kids": 129
+ },
+ {
+  "s": "kbd",
+  "ok": true,
+  "errs": [],
+  "len": 9664,
+  "kids": 56
+ },
+ {
+  "s": "kpi-chart",
+  "ok": true,
+  "errs": [],
+  "len": 4520,
+  "kids": 59
+ },
+ {
+  "s": "memory-graph",
+  "ok": true,
+  "errs": [],
+  "len": 18962,
+  "kids": 172
+ },
+ {
+  "s": "memory-panel",
+  "ok": true,
+  "errs": [],
+  "len": 24696,
+  "kids": 248
+ },
+ {
+  "s": "message-actions",
+  "ok": true,
+  "errs": [],
+  "len": 18533,
+  "kids": 104
+ },
+ {
+  "s": "metering-chart",
+  "ok": true,
+  "errs": [],
+  "len": 11418,
+  "kids": 129
+ },
+ {
+  "s": "model-picker",
+  "ok": true,
+  "errs": [],
+  "len": 12516,
+  "kids": 152
+ },
+ {
+  "s": "model-router",
+  "ok": true,
+  "errs": [],
+  "len": 33536,
+  "kids": 408
+ },
+ {
+  "s": "model-usage",
+  "ok": true,
+  "errs": [],
+  "len": 14262,
+  "kids": 138
+ },
+ {
+  "s": "notification-stack",
+  "ok": true,
+  "errs": [],
+  "len": 6011,
+  "kids": 68
+ },
+ {
+  "s": "number-input",
+  "ok": true,
+  "errs": [],
+  "len": 6972,
+  "kids": 59
+ },
+ {
+  "s": "otp-input",
+  "ok": true,
+  "errs": [],
+  "len": 7992,
+  "kids": 44
+ },
+ {
+  "s": "pagination",
+  "ok": true,
+  "errs": [],
+  "len": 13370,
+  "kids": 169
+ },
+ {
+  "s": "parallel-attempts",
+  "ok": true,
+  "errs": [],
+  "len": 17275,
+  "kids": 71
+ },
+ {
+  "s": "permission-request",
+  "ok": true,
+  "errs": [],
+  "len": 22224,
+  "kids": 66
+ },
+ {
+  "s": "plan-vs-actual",
+  "ok": true,
+  "errs": [],
+  "len": 9183,
+  "kids": 124
+ },
+ {
+  "s": "popover",
+  "ok": true,
+  "errs": [],
+  "len": 17948,
+  "kids": 60
+ },
+ {
+  "s": "profile-menu",
+  "ok": true,
+  "errs": [],
+  "len": 4757,
+  "kids": 52
+ },
+ {
+  "s": "progress-tracker",
+  "ok": true,
+  "errs": [],
+  "len": 3580,
+  "kids": 47
+ },
+ {
+  "s": "project-card",
+  "ok": true,
+  "errs": [],
+  "len": 7645,
+  "kids": 99
+ },
+ {
+  "s": "prompt-library",
+  "ok": true,
+  "errs": [],
+  "len": 9068,
+  "kids": 112
+ },
+ {
+  "s": "rate-limit-planner",
+  "ok": true,
+  "errs": [],
+  "len": 76494,
+  "kids": 176
+ },
+ {
+  "s": "rating",
+  "ok": true,
+  "errs": [],
+  "len": 27651,
+  "kids": 96
+ },
+ {
+  "s": "reaction-bar",
+  "ok": true,
+  "errs": [],
+  "len": 3681,
+  "kids": 38
+ },
+ {
+  "s": "reasoning-summary",
+  "ok": true,
+  "errs": [],
+  "len": 29723,
+  "kids": 164
+ },
+ {
+  "s": "repo-map",
+  "ok": true,
+  "errs": [],
+  "len": 18513,
+  "kids": 206
+ },
+ {
+  "s": "resizable",
+  "ok": true,
+  "errs": [],
+  "len": 11101,
+  "kids": 65
+ },
+ {
+  "s": "response-stream",
+  "ok": true,
+  "errs": [],
+  "len": 3450,
+  "kids": 36
+ },
+ {
+  "s": "review-center",
+  "ok": true,
+  "errs": [],
+  "len": 43751,
+  "kids": 247
+ },
+ {
+  "s": "root-cause-tree",
+  "ok": true,
+  "errs": [],
+  "len": 15806,
+  "kids": 154
+ },
+ {
+  "s": "run-controls",
+  "ok": true,
+  "errs": [],
+  "len": 5907,
+  "kids": 66
+ },
+ {
+  "s": "running-now",
+  "ok": true,
+  "errs": [],
+  "len": 13675,
+  "kids": 115
+ },
+ {
+  "s": "scheduled-runs",
+  "ok": true,
+  "errs": [],
+  "len": 34147,
+  "kids": 298
+ },
+ {
+  "s": "scroll-area",
+  "ok": true,
+  "errs": [],
+  "len": 25558,
+  "kids": 160
+ },
+ {
+  "s": "segmented-control",
+  "ok": true,
+  "errs": [],
+  "len": 7896,
+  "kids": 60
+ },
+ {
+  "s": "select",
+  "ok": true,
+  "errs": [],
+  "len": 14043,
+  "kids": 33
+ },
+ {
+  "s": "separator",
+  "ok": true,
+  "errs": [],
+  "len": 5617,
+  "kids": 37
+ },
+ {
+  "s": "setup-guide",
+  "ok": true,
+  "errs": [],
+  "len": 5949,
+  "kids": 74
+ },
+ {
+  "s": "skeleton",
+  "ok": true,
+  "errs": [],
+  "len": 9814,
+  "kids": 70
+ },
+ {
+  "s": "smart-recommendation",
+  "ok": true,
+  "errs": [],
+  "len": 2920,
+  "kids": 28
+ },
+ {
+  "s": "spinner",
+  "ok": true,
+  "errs": [],
+  "len": 10072,
+  "kids": 67
+ },
+ {
+  "s": "stat-card",
+  "ok": true,
+  "errs": [],
+  "len": 12837,
+  "kids": 132
+ },
+ {
+  "s": "stepper-form",
+  "ok": true,
+  "errs": [],
+  "len": 4956,
+  "kids": 76
+ },
+ {
+  "s": "switch",
+  "ok": true,
+  "errs": [],
+  "len": 7590,
+  "kids": 49
+ },
+ {
+  "s": "tag-input",
+  "ok": true,
+  "errs": [],
+  "len": 7273,
+  "kids": 44
+ },
+ {
+  "s": "text-area",
+  "ok": true,
+  "errs": [],
+  "len": 24065,
+  "kids": 24
+ },
+ {
+  "s": "text-field",
+  "ok": true,
+  "errs": [],
+  "len": 6224,
+  "kids": 53
+ },
+ {
+  "s": "thinking-loader",
+  "ok": true,
+  "errs": [],
+  "len": 5017,
+  "kids": 20
+ },
+ {
+  "s": "thinking-state",
+  "ok": true,
+  "errs": [],
+  "len": 21513,
+  "kids": 73
+ },
+ {
+  "s": "time-picker",
+  "ok": true,
+  "errs": [],
+  "len": 4392,
+  "kids": 31
+ },
+ {
+  "s": "tips-panel",
+  "ok": true,
+  "errs": [],
+  "len": 4336,
+  "kids": 48
+ },
+ {
+  "s": "toaster",
+  "ok": true,
+  "errs": [],
+  "len": 11508,
+  "kids": 53
+ },
+ {
+  "s": "toggle-group",
+  "ok": true,
+  "errs": [],
+  "len": 8046,
+  "kids": 52
+ },
+ {
+  "s": "tool-access-map",
+  "ok": true,
+  "errs": [],
+  "len": 28640,
+  "kids": 173
+ },
+ {
+  "s": "tool-call-card",
+  "ok": true,
+  "errs": [],
+  "len": 7290,
+  "kids": 60
+ },
+ {
+  "s": "tooltip",
+  "ok": true,
+  "errs": [],
+  "len": 13279,
+  "kids": 57
+ },
+ {
+  "s": "trace-waterfall",
+  "ok": true,
+  "errs": [],
+  "len": 13837,
+  "kids": 95
+ },
+ {
+  "s": "tree-view",
+  "ok": true,
+  "errs": [],
+  "len": 13144,
+  "kids": 73
+ },
+ {
+  "s": "trend-chart",
+  "ok": true,
+  "errs": [],
+  "len": 13180,
+  "kids": 108
+ },
+ {
+  "s": "usage-meter",
+  "ok": true,
+  "errs": [],
+  "len": 8861,
+  "kids": 149
+ },
+ {
+  "s": "writing-assistant",
+  "ok": true,
+  "errs": [],
+  "len": 3220,
+  "kids": 40
+ }
+]

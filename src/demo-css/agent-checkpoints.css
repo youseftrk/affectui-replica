@@ -1,0 +1,11 @@
+.login__back { top: calc(var(--gutter) + 2px - 95px); gap: 4px; padding-left: 8px; position: absolute; left: 0px; }
+@media (max-width: 860px){.login__back { top: 0px; }}
+.countdown__track, .countdown__part { display: inline; }
+.wish__back { height: 30px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-language-override: inherit; color: var(--text-muted); cursor: pointer; background: 0px 0px; border: 0px; padding: 0px 4px; font-size: 13px; }
+.wish__back:hover { color: var(--text); }
+.ack-demo { grid-template-columns: minmax(0px, 480px); justify-content: center; width: 100%; display: grid; }
+.ack-demo:has(.ui-ack) { grid-template-columns: minmax(0px, 520px); }
+.stage:has(.ack-demo) { height: 560px; }
+.stage .ack-demo { align-self: start; margin-top: 64px; padding-inline: 24px; }
+@media (max-width: 760px){.stage:has(.ack-demo) { padding-left: 12px; padding-right: 12px; }}
+@media (max-width: 760px){.stage .ack-demo { margin-top: 84px; padding-inline: 0px; }}

@@ -1,0 +1,7 @@
+.stage__look { place-items: inherit; width: 100%; min-width: 0px; height: 100%; display: grid; }
+.rstr-demo { --rstr-card: #fff; --rstr-ink: #000000e0; --rstr-muted: #00000073; --rstr-shadow: 0 0 0 .5px #0000000f, 0 1px 1px -1px #0000001a, 0 1px 2px 0 #0000000d; align-content: start; gap: 16px; width: 100%; max-width: 520px; min-height: 330px; margin: 0px auto; font-family: Inter, InterVariable, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; font-size: 13px; line-height: 20px; display: grid; }
+:where(.dark, [data-theme="dark"]) .rstr-demo { --rstr-card: #1c1c1e; --rstr-ink: #ffffffe6; --rstr-muted: #ffffff75; --rstr-shadow: 0 0 0 .5px #ffffff1a, 0 1px 2px 0 #0006; }
+.rstr-demo__ask { background: var(--rstr-card); max-width: 80%; box-shadow: var(--rstr-shadow); color: var(--rstr-ink); border-radius: 12px 12px 4px; justify-self: end; padding: 8px 12px; }
+.rstr-demo__gone { color: var(--rstr-muted); margin: 0px; padding-left: 24px; font-size: 12px; }
+.rstr-demo[data-style="classic"] .rstr-demo__ask { border-radius: 16px 16px 6px; }
+.stage:has(.rstr-demo) { height: auto; min-height: 460px; }

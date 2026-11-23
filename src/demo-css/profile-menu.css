@@ -1,0 +1,5 @@
+:where(.ui-pmc) button { margin: 0px; padding: 0px; border: 0px; background: none; font: inherit; color: inherit; text-align: left; cursor: pointer; }
+:where(.ui-pmc) svg { display: block; flex: 0 0 auto; }
+.stage__look { place-items: inherit; width: 100%; min-width: 0px; height: 100%; display: grid; }
+.profile-demo { grid-template-columns: minmax(0px, 1fr); place-items: center; width: 100%; display: grid; }
+.stage .profile-demo .ui-pmc { zoom: 1.15; }

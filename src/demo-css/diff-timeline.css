@@ -1,0 +1,5 @@
+:where(.ui-dtlc) :where(h3, p, ul, dl, dd, pre) { margin: 0px; padding: 0px; }
+.stage__look { place-items: inherit; width: 100%; min-width: 0px; height: 100%; display: grid; }
+.dtl-demo { grid-template-columns: minmax(0px, 580px); justify-content: center; width: 100%; display: grid; }
+.stage:has(.dtl-demo) { height: 640px; }
+@media (max-width: 760px){.stage:has(.dtl-demo) { height: auto; padding: 56px 12px 16px; }}

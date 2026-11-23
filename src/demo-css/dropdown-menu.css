@@ -1,0 +1,43 @@
+.stage__look { place-items: inherit; width: 100%; min-width: 0px; height: 100%; display: grid; }
+.dm-demo { --dm-demo-focus: #0060e2b3; width: 100%; font-family: var(--aui-font,"Inter", "InterVariable", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif); color: rgba(0, 0, 0, 0.88); -webkit-font-smoothing: antialiased; grid-template-columns: minmax(0px, 400px); place-content: center; font-size: 13px; line-height: 20px; display: grid; }
+:where(.dark, [data-theme="dark"]) .dm-demo { --dm-demo-focus: #4d8dffcc; color: rgba(255, 255, 255, 0.9); }
+.dm-demo__card { box-sizing: border-box; background: rgb(255, 255, 255); border-radius: 10px; min-width: 0px; padding: 4px 0px 0px; box-shadow: rgba(0, 0, 0, 0.06) 0px 0px 0px 0.5px, rgba(0, 0, 0, 0.1) 0px 1px 1px -1px, rgba(0, 0, 0, 0.05) 0px 1px 2px; }
+.dm-demo__head { justify-content: space-between; align-items: center; gap: 12px; height: 40px; padding: 0px 8px 0px 16px; display: flex; }
+.dm-demo__title { letter-spacing: 0.5px; text-transform: uppercase; color: rgba(0, 0, 0, 0.45); margin: 0px; font-size: 10px; font-weight: 500; line-height: 16px; }
+.dm-demo__sort { height: 28px; font-style: inherit; font-variant: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-language-override: inherit; color: rgba(0, 0, 0, 0.88); cursor: pointer; background: 0px 0px; border: 0px; border-radius: 6px; align-items: center; gap: 4px; margin: 0px; padding: 0px 8px; font-weight: 500; display: inline-flex; }
+.dm-demo__sort svg { color: rgba(0, 0, 0, 0.45); }
+.dm-demo__sort:hover, .dm-demo__sort[aria-expanded="true"] { background: rgba(0, 0, 0, 0.04); }
+.dm-demo__muted { color: rgba(0, 0, 0, 0.45); font-weight: 400; }
+.dm-demo__rows { margin: 0px; padding: 0px; list-style: none; }
+.dm-demo__row { align-items: center; gap: 12px; height: 56px; padding: 0px 8px 0px 16px; display: flex; box-shadow: rgba(0, 0, 0, 0.06) 0px 0.5px inset; }
+.dm-demo__glyph { color: rgba(0, 0, 0, 0.5); background: rgba(0, 0, 0, 0.04); border-radius: 7px; flex: 0 0 auto; place-items: center; width: 28px; height: 28px; display: grid; }
+.dm-demo__text { flex: 1 1 0%; min-width: 0px; display: grid; }
+.dm-demo__name { white-space: nowrap; text-overflow: ellipsis; color: rgb(0, 0, 0); font-weight: 500; overflow: hidden; }
+.dm-demo__meta { white-space: nowrap; text-overflow: ellipsis; color: rgba(0, 0, 0, 0.45); font-variant-numeric: tabular-nums; font-size: 12px; line-height: 16px; overflow: hidden; }
+.dm-demo__more { color: rgba(0, 0, 0, 0.45); cursor: pointer; background: 0px 0px; border: 0px; border-radius: 6px; flex: 0 0 auto; place-items: center; width: 28px; height: 28px; margin: 0px; padding: 0px; display: grid; }
+.dm-demo__more:hover, .dm-demo__more[aria-expanded="true"] { color: rgba(0, 0, 0, 0.88); background: rgba(0, 0, 0, 0.05); }
+.dm-demo__sort:focus-visible, .dm-demo__more:focus-visible { outline: 2px solid var(--dm-demo-focus); outline-offset: 2px; }
+.dm-demo__note { white-space: nowrap; text-overflow: ellipsis; color: rgba(0, 0, 0, 0.45); height: 40px; margin: 0px; padding: 0px 16px; font-size: 12px; line-height: 40px; overflow: hidden; box-shadow: rgba(0, 0, 0, 0.06) 0px 0.5px inset; }
+:where(.dark, [data-theme="dark"]) .dm-demo__card { background: rgb(20, 20, 22); box-shadow: rgba(255, 255, 255, 0.1) 0px 0px 0px 0.5px, rgba(0, 0, 0, 0.4) 0px 1px 2px; }
+:where(.dark, [data-theme="dark"]) .dm-demo :is(.dm-demo__title, .dm-demo__muted, .dm-demo__meta, .dm-demo__note, .dm-demo__sort svg, .dm-demo__more) { color: rgba(255, 255, 255, 0.46); }
+:where(.dark, [data-theme="dark"]) .dm-demo .dm-demo__sort { color: rgba(255, 255, 255, 0.9); }
+:where(.dark, [data-theme="dark"]) .dm-demo__name { color: rgb(255, 255, 255); }
+:where(.dark, [data-theme="dark"]) .dm-demo__glyph { color: rgba(255, 255, 255, 0.6); background: rgba(255, 255, 255, 0.06); }
+:where(.dark, [data-theme="dark"]) .dm-demo :is(.dm-demo__row, .dm-demo__note) { box-shadow: rgba(255, 255, 255, 0.08) 0px 0.5px inset; }
+:where(.dark, [data-theme="dark"]) .dm-demo :is(.dm-demo__sort, .dm-demo__more):is(:hover, [aria-expanded="true"]) { color: rgba(255, 255, 255, 0.9); background: rgba(255, 255, 255, 0.07); }
+.dm-demo--classic { color: rgb(23, 23, 23); }
+.dm-demo--classic .dm-demo__card { border-radius: 16px; outline: 4px solid rgb(240, 240, 240); box-shadow: rgb(236, 236, 236) 0px 0px 0px 1px, rgba(0, 0, 0, 0.04) 0px 1px 2px; }
+.dm-demo--classic .dm-demo__title { letter-spacing: 0px; text-transform: none; color: rgb(23, 23, 23); font-size: 13px; line-height: 20px; }
+.dm-demo--classic .dm-demo__row { height: 58px; box-shadow: rgb(240, 240, 240) 0px 1px inset; }
+.dm-demo--classic .dm-demo__note { box-shadow: rgb(240, 240, 240) 0px 1px inset; }
+.dm-demo--classic .dm-demo__glyph { color: rgb(115, 115, 115); background: rgb(244, 244, 245); border-radius: 9px; }
+.dm-demo--classic :is(.dm-demo__sort, .dm-demo__more) { border-radius: 8px; }
+:where(.dark, [data-theme="dark"]) .dm-demo--classic { color: rgb(237, 237, 237); }
+:where(.dark, [data-theme="dark"]) .dm-demo--classic .dm-demo__card { background: rgb(22, 22, 24); outline-color: rgb(17, 17, 19); box-shadow: rgb(42, 42, 46) 0px 0px 0px 1px; }
+:where(.dark, [data-theme="dark"]) .dm-demo--classic .dm-demo__title { color: rgb(237, 237, 237); }
+:where(.dark, [data-theme="dark"]) .dm-demo--classic :is(.dm-demo__row, .dm-demo__note) { box-shadow: rgb(38, 38, 42) 0px 1px inset; }
+:where(.dark, [data-theme="dark"]) .dm-demo--classic .dm-demo__glyph { color: rgb(139, 139, 146); background: rgb(35, 35, 38); }
+.stage:has(.dm-demo) { align-items: start; height: 540px; padding: 64px 24px 40px; }
+@media (max-width: 560px){.stage:has(.dm-demo) { height: auto; min-height: 540px; padding: 120px 12px 24px; }}
+@media (pointer: coarse){.dm-demo__more, .dm-demo__sort { min-width: 36px; height: 36px; }}
+/* static replica: anchor open panel to its trigger (.ui-dmc is position:relative) */

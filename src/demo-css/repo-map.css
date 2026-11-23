@@ -1,0 +1,6 @@
+.stage__look { place-items: inherit; width: 100%; min-width: 0px; height: 100%; display: grid; }
+.rpm-demo { grid-template-columns: minmax(0px, 720px); justify-content: center; width: 100%; display: grid; }
+.stage:has(.rpm-demo) { height: 560px; }
+.stage .rpm-demo { align-self: center; padding-inline: 24px; }
+@media (max-width: 760px){.stage:has(.rpm-demo) { height: auto; padding-bottom: 12px; padding-left: 12px; padding-right: 12px; }}
+@media (max-width: 760px){.stage .rpm-demo { margin-top: 84px; margin-bottom: 36px; padding-inline: 0px; }}

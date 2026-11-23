@@ -1,0 +1,8 @@
+:where(.ui-ctc) button { appearance: none; margin: 0px; padding: 0px; border: 0px; background: none; font: inherit; color: inherit; cursor: pointer; -webkit-tap-highlight-color: transparent; }
+:where(.ui-ctc) svg { display: block; flex: 0 0 auto; }
+img.ui-ctc__avatar { box-shadow: 0 0 0 0.5px var(--ui-ctc-avatar-ring); }
+.thread-demo { grid-template-columns: minmax(0px, 420px); place-content: center; width: 100%; display: grid; }
+.stage .thread-demo .ui-ct { --ui-ct-min-height: 290px; --ui-ct-max-height: 340px; }
+@media (max-width: 760px){.stage .thread-demo .ui-ct { --ui-ct-min-height: 250px; --ui-ct-max-height: 280px; }}
+.stage .thread-demo .ui-ctc { --ui-ctc-min-height: 290px; --ui-ctc-max-height: 340px; }
+@media (max-width: 760px){.stage .thread-demo .ui-ctc { --ui-ctc-min-height: 250px; --ui-ctc-max-height: 280px; }}

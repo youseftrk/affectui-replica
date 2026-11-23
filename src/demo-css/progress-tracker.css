@@ -1,0 +1,7 @@
+:where(.ui-progressc) button { margin: 0px; padding: 0px; border: 0px; background: none; font: inherit; letter-spacing: inherit; color: inherit; cursor: pointer; }
+no-repeat; animation: 1400ms ease-out 0s 1 normal both running ui-progressc-shine; }
+box-shadow 220ms var(--ui-pgc-ease); }
+.stage__look { place-items: inherit; width: 100%; min-width: 0px; height: 100%; display: grid; }
+.progress-demo { grid-template-columns: minmax(0px, 1fr); place-items: center; width: 100%; display: grid; }
+.stage .progress-demo .ui-progressc { zoom: 1.12; }
+@media (max-width: 760px){.stage .progress-demo:has(.ui-progressc) { margin-top: 64px; }}

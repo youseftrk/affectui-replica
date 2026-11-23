@@ -1,0 +1,542 @@
+      <div className="acr-demo">
+<section className="ui-acrc" data-wide="" aria-label="Fix the checkout crash">
+<header className="ui-acrc__bar">
+<div className="ui-acrc__proj">
+<button type="button" className="ui-acrc__proj-btn" aria-haspopup="listbox" aria-expanded="false">
+<svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+<path d="M2.5 7.5C2.5 6.12 3.62 5 5 5H8.9C9.5 5 10.07 5.27 10.45 5.74L11.6 7.2C11.98 7.67 12.55 7.94 13.15 7.94H19C20.38 7.94 21.5 9.06 21.5 10.44V16.5C21.5 17.88 20.38 19 19 19H5C3.62 19 2.5 17.88 2.5 16.5V7.5Z" stroke="currentColor" strokeWidth="1.6" strokeLinejoin="round">
+</path>
+</svg>
+<span className="ui-acrc__proj-name" dir="auto">Fix the checkout crash</span>
+<svg className="ui-acrc__chev" width="12" height="12" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+<path d="M18 9C18 9 13.58 15 12 15C10.42 15 6 9 6 9" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.8">
+</path>
+</svg>
+</button>
+</div>
+<span className="ui-acrc__sum">
+<span className="ui-acrc__sum-run">2 working</span>
+<span>8 agents</span>
+</span>
+</header>
+<div className="ui-acrc__tree" role="tree" aria-label="Fix the checkout crash">
+<svg className="ui-acrc__links" width="760" height="456" aria-hidden="true">
+<path d="M366 115V127Q366 135 358 135H130Q122 135 122 143V155" pathLength="1" className="ui-acrc__link" style={{"--ui-acrc-lc": 'var(--ui-acrc-blue)'}}>
+</path>
+<path d="M39 270V297.5Q39 301 42.5 301H46" pathLength="1" className="ui-acrc__link" data-rest="" style={{"--ui-acrc-lc": 'rgba(166, 81, 240, 0.85)'}}>
+</path>
+<path d="M366 115V155" pathLength="1" className="ui-acrc__link" data-rest="" style={{"--ui-acrc-lc": 'var(--ui-acrc-blue)'}}>
+</path>
+<path d="M283 270V297.5Q283 301 286.5 301H290" pathLength="1" className="ui-acrc__link" data-rest="" style={{"--ui-acrc-lc": 'rgba(20, 179, 240, 0.85)'}}>
+</path>
+<path d="M283 270V390.5Q283 394 286.5 394H290" pathLength="1" className="ui-acrc__link" data-rest="" style={{"--ui-acrc-lc": 'rgba(20, 179, 240, 0.85)'}}>
+</path>
+<path d="M366 115V127Q366 135 374 135H602Q610 135 610 143V155" pathLength="1" className="ui-acrc__link" data-rest="" style={{"--ui-acrc-lc": 'var(--ui-acrc-blue)'}}>
+</path>
+<path d="M527 270V297.5Q527 301 530.5 301H534" pathLength="1" className="ui-acrc__link" data-rest="" style={{"--ui-acrc-lc": 'rgba(95, 200, 138, 0.9)'}}>
+</path>
+<g className="ui-acrc__light">
+<path d="M366 115V127Q366 135 358 135H130Q122 135 122 143V155" style={{"--ui-acrc-lc": 'var(--ui-acrc-blue)', strokeDasharray: '44, 365.972'}}>
+</path>
+<path d="M366 115V127Q366 135 358 135H130Q122 135 122 143V155" style={{"--ui-acrc-lc": 'var(--ui-acrc-blue)', strokeDasharray: '38.5, 365.972'}}>
+</path>
+<path d="M366 115V127Q366 135 358 135H130Q122 135 122 143V155" style={{"--ui-acrc-lc": 'var(--ui-acrc-blue)', strokeDasharray: '33, 365.972'}}>
+</path>
+<path d="M366 115V127Q366 135 358 135H130Q122 135 122 143V155" style={{"--ui-acrc-lc": 'var(--ui-acrc-blue)', strokeDasharray: '27.5, 365.972'}}>
+</path>
+<path d="M366 115V127Q366 135 358 135H130Q122 135 122 143V155" style={{"--ui-acrc-lc": 'var(--ui-acrc-blue)', strokeDasharray: '22, 365.972'}}>
+</path>
+<path d="M366 115V127Q366 135 358 135H130Q122 135 122 143V155" style={{"--ui-acrc-lc": 'var(--ui-acrc-blue)', strokeDasharray: '16.5, 365.972'}}>
+</path>
+<path d="M366 115V127Q366 135 358 135H130Q122 135 122 143V155" style={{"--ui-acrc-lc": 'var(--ui-acrc-blue)', strokeDasharray: '11, 365.972'}}>
+</path>
+<path d="M366 115V127Q366 135 358 135H130Q122 135 122 143V155" style={{"--ui-acrc-lc": 'var(--ui-acrc-blue)', strokeDasharray: '5.5, 365.972'}}>
+</path>
+</g>
+</svg>
+<svg className="ui-acrc__links ui-acrc__dots" width="760" height="456" aria-hidden="true">
+<circle cx="366" cy="115" r="3" className="ui-acrc__dot" style={{"--ui-acrc-lc": 'var(--ui-acrc-blue)'}}>
+</circle>
+<circle cx="39" cy="270" r="3" className="ui-acrc__dot" data-rest="" style={{"--ui-acrc-lc": 'rgba(166, 81, 240, 0.85)'}}>
+</circle>
+<circle cx="283" cy="270" r="3" className="ui-acrc__dot" data-rest="" style={{"--ui-acrc-lc": 'rgba(20, 179, 240, 0.85)'}}>
+</circle>
+<circle cx="527" cy="270" r="3" className="ui-acrc__dot" data-rest="" style={{"--ui-acrc-lc": 'rgba(95, 200, 138, 0.9)'}}>
+</circle>
+</svg>
+<div className="ui-acrc__root" role="treeitem" aria-label="Lead">
+<div className="ui-acrc__node" data-status="active" aria-expanded="false" aria-haspopup="dialog" tabIndex="0" aria-label="Lead: Working, Delegating, context 22%" style={{"--ui-acrc-c": 'var(--ui-acrc-blue)'}}>
+<div className="ui-acrc__top">
+<span className="ui-acrc__avatar" aria-hidden="true">
+<span className="ui-acrc__mark" data-busy="">
+<i style={{animationDelay: '0ms'}}>
+</i>
+<i style={{animationDelay: '120ms'}}>
+</i>
+<i style={{animationDelay: '240ms'}}>
+</i>
+<i data-on="" style={{animationDelay: '120ms'}}>
+</i>
+<i data-on="" style={{animationDelay: '240ms'}}>
+</i>
+<i data-on="" style={{animationDelay: '360ms'}}>
+</i>
+<i data-on="" style={{animationDelay: '240ms'}}>
+</i>
+<i style={{animationDelay: '360ms'}}>
+</i>
+<i data-on="" style={{animationDelay: '480ms'}}>
+</i>
+</span>
+</span>
+<span className="ui-acrc__who">
+<span className="ui-acrc__name" dir="auto" title="Lead">Lead</span>
+<span className="ui-acrc__model" title="Claude Opus">Claude Opus</span>
+</span>
+<span className="ui-acrc__status" data-status="active">
+<svg className="ui-acrc__spin" width="12" height="12" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+<circle cx="12" cy="12" r="8.5" stroke="currentColor" strokeOpacity="0.25" strokeWidth="2.5">
+</circle>
+<path d="M12 3.5A8.5 8.5 0 0 1 20.5 12" stroke="currentColor" strokeLinecap="round" strokeWidth="2.5">
+</path>
+</svg>Working</span>
+</div>
+<p className="ui-acrc__act" dir="auto" data-live="" title="Delegating">Delegating</p>
+<div className="ui-acrc__ctx">
+<span className="ui-acrc__meter" aria-hidden="true">
+<i style={{width: '22%'}}>
+</i>
+</span>
+<span className="ui-acrc__num">44k / 200k</span>
+</div>
+<div className="ui-acrc__foot">
+<span className="ui-acrc__tools" aria-hidden="true">
+<span className="ui-acrc__tool">
+<svg viewBox="0 0 24 24" fill="#5E6AD2" aria-hidden="true">
+<path d="M2.886 4.18A11.982 11.982 0 0 1 11.99 0C18.624 0 24 5.376 24 12.009c0 3.64-1.62 6.903-4.18 9.105L2.887 4.18ZM1.817 5.626l16.556 16.556c-.524.33-1.075.62-1.65.866L.951 7.277c.247-.575.537-1.126.866-1.65ZM.322 9.163l14.515 14.515c-.71.172-1.443.282-2.195.322L0 11.358a12 12 0 0 1 .322-2.195Zm-.17 4.862 9.823 9.824a12.02 12.02 0 0 1-9.824-9.824Z">
+</path>
+</svg>
+</span>
+<span className="ui-acrc__tool">
+<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style={{color: 'var(--ui-acrc-strong, #000)'}}>
+<path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12">
+</path>
+</svg>
+</span>
+</span>
+</div>
+</div>
+</div>
+<div className="ui-acrc__level" role="group">
+<div className="ui-acrc__hang" role="treeitem" aria-label="Researcher" style={{"--ui-acrc-col": 1}}>
+<div className="ui-acrc__node" data-status="active" aria-expanded="false" aria-haspopup="dialog" tabIndex="-1" aria-label="Researcher: Working, Reading the bug report, context 16%" style={{"--ui-acrc-c": 'rgba(166, 81, 240, 0.85)'}}>
+<span className="ui-acrc__got" data-side="top" aria-hidden="true">
+<span className="ui-acrc__floor" style={{animationDelay: '10s'}}>
+<span className="ui-acrc__floor-turn">
+<span className="ui-acrc__floor-rise">
+<span className="ui-acrc__gf ui-acrc__gf--color">
+<span className="ui-acrc__gf-bleed" style={{animationDelay: '10s'}}>
+<svg viewBox="0 0 3447.1 1514.1" preserveAspectRatio="none">
+<defs>
+<linearGradient id="ui-acrc-gf1-fill" x1="1723.8" y1="423.3" x2="1723.8" y2="894.3" gradientUnits="userSpaceOnUse">
+<stop style={{stopColor: 'var(--ui-acrc-floor-1)'}}>
+</stop>
+<stop offset="0.302885" style={{stopColor: 'var(--ui-acrc-floor-2)'}}>
+</stop>
+<stop offset="0.673077" style={{stopColor: 'var(--ui-acrc-floor-3)'}}>
+</stop>
+</linearGradient>
+</defs>
+<path d="M926.8 633.0C926.8 633.0 302.1 332.3 291.3 326.3V1222.8H3155.8V468.0L2493.8 527.7H2189.3V527.7L1898.8 348.1H1510.8V348.1L1230.8 633.0H926.8V633.0Z" fill="url(#ui-acrc-gf1-fill)">
+</path>
+</svg>
+</span>
+</span>
+<span className="ui-acrc__gf ui-acrc__gf--light">
+<span className="ui-acrc__gf-bleed" style={{animationDelay: '10s'}}>
+<svg viewBox="0 0 2904.96 1275.97" preserveAspectRatio="none">
+<path d="M781.039 533.4C781.039 533.4 254.588 280.0 245.486 275.0V1030.49H2659.48V394.4L2101.59 444.7H1844.98V444.7L1600.17 293.3H1273.19V293.3L1037.23 533.4H781.039V533.4Z" fill="#fff" fillOpacity="0.8">
+</path>
+</svg>
+</span>
+</span>
+</span>
+</span>
+</span>
+</span>
+<div className="ui-acrc__top">
+<span className="ui-acrc__avatar" aria-hidden="true">
+<span className="ui-acrc__mark" data-busy="">
+<i data-on="" style={{animationDelay: '0ms'}}>
+</i>
+<i data-on="" style={{animationDelay: '120ms'}}>
+</i>
+<i data-on="" style={{animationDelay: '240ms'}}>
+</i>
+<i style={{animationDelay: '120ms'}}>
+</i>
+<i data-on="" style={{animationDelay: '240ms'}}>
+</i>
+<i style={{animationDelay: '360ms'}}>
+</i>
+<i data-on="" style={{animationDelay: '240ms'}}>
+</i>
+<i style={{animationDelay: '360ms'}}>
+</i>
+<i data-on="" style={{animationDelay: '480ms'}}>
+</i>
+</span>
+</span>
+<span className="ui-acrc__who">
+<span className="ui-acrc__name" dir="auto" title="Researcher">Researcher</span>
+<span className="ui-acrc__model" title="Claude Sonnet">Claude Sonnet</span>
+</span>
+<span className="ui-acrc__status" data-status="active">
+<svg width="12" height="12" viewBox="0 0 24 24" fill="none" aria-hidden="true" className="ui-acrc__spin">
+<circle cx="12" cy="12" r="8.5" stroke="currentColor" strokeOpacity="0.25" strokeWidth="2.5">
+</circle>
+<path d="M12 3.5A8.5 8.5 0 0 1 20.5 12" stroke="currentColor" strokeLinecap="round" strokeWidth="2.5">
+</path>
+</svg>Working</span>
+</div>
+<p className="ui-acrc__act" dir="auto" title="Reading the bug report" data-live="">Reading the bug report</p>
+<div className="ui-acrc__ctx">
+<span className="ui-acrc__meter" aria-hidden="true">
+<i style={{width: '16%'}}>
+</i>
+</span>
+<span className="ui-acrc__num">32k / 200k</span>
+</div>
+<div className="ui-acrc__foot">
+<span className="ui-acrc__tools" aria-hidden="true">
+<span className="ui-acrc__tool">
+<svg viewBox="0 0 24 24" fill="#5E6AD2" aria-hidden="true">
+<path d="M2.886 4.18A11.982 11.982 0 0 1 11.99 0C18.624 0 24 5.376 24 12.009c0 3.64-1.62 6.903-4.18 9.105L2.887 4.18ZM1.817 5.626l16.556 16.556c-.524.33-1.075.62-1.65.866L.951 7.277c.247-.575.537-1.126.866-1.65ZM.322 9.163l14.515 14.515c-.71.172-1.443.282-2.195.322L0 11.358a12 12 0 0 1 .322-2.195Zm-.17 4.862 9.823 9.824a12.02 12.02 0 0 1-9.824-9.824Z">
+</path>
+</svg>
+</span>
+<span className="ui-acrc__tool">
+<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style={{color: 'var(--ui-acrc-strong, #000)'}}>
+<path d="M4.459 4.208c.746.606 1.026.56 2.428.466l13.215-.793c.28 0 .047-.28-.046-.326L17.86 1.968c-.42-.326-.981-.7-2.055-.607L3.01 2.295c-.466.046-.56.28-.374.466zm.793 3.08v13.904c0 .747.373 1.027 1.214.98l14.523-.84c.841-.046.935-.56.935-1.167V6.354c0-.606-.233-.933-.748-.887l-15.177.887c-.56.047-.747.327-.747.933zm14.337.745c.093.42 0 .84-.42.888l-.7.14v10.264c-.608.327-1.168.514-1.635.514-.748 0-.935-.234-1.495-.933l-4.577-7.186v6.952L12.21 19s0 .84-1.168.84l-3.222.186c-.093-.186 0-.653.327-.746l.84-.233V9.854L7.822 9.76c-.094-.42.14-1.026.793-1.073l3.456-.233 4.764 7.279v-6.44l-1.215-.139c-.093-.514.28-.887.747-.933zM1.936 1.035l13.31-.98c1.634-.14 2.055-.047 3.082.7l4.249 2.986c.7.513.934.653.934 1.213v16.378c0 1.026-.373 1.634-1.68 1.726l-15.458.934c-.98.047-1.448-.093-1.962-.747l-3.129-4.06c-.56-.747-.793-1.306-.793-1.96V2.667c0-.839.374-1.54 1.447-1.632z">
+</path>
+</svg>
+</span>
+</span>
+<span className="ui-acrc__last" dir="auto" title="Lead: Find where empty carts crash">
+<svg width="12" height="12" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+<path d="M5 5V10.5C5 12.433 6.567 14 8.5 14H19M19 14L15 10M19 14L15 18" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.8">
+</path>
+</svg>
+<b>Lead</b>
+<span>Find where empty carts crash</span>
+</span>
+</div>
+</div>
+<div className="ui-acrc__below" role="group">
+<div className="ui-acrc__hang" role="treeitem" aria-label="Web search">
+<div className="ui-acrc__node" data-status="idle" data-rest="" data-small="" aria-expanded="false" aria-haspopup="dialog" tabIndex="-1" aria-label="Web search: Idle, Idle, context 2%" style={{"--ui-acrc-c": 'rgba(166, 81, 240, 0.85)'}}>
+<div className="ui-acrc__top">
+<span className="ui-acrc__avatar" aria-hidden="true">
+<span className="ui-acrc__mark">
+<i style={{animationDelay: '0ms'}}>
+</i>
+<i data-on="" style={{animationDelay: '120ms'}}>
+</i>
+<i style={{animationDelay: '240ms'}}>
+</i>
+<i data-on="" style={{animationDelay: '120ms'}}>
+</i>
+<i data-on="" style={{animationDelay: '240ms'}}>
+</i>
+<i data-on="" style={{animationDelay: '360ms'}}>
+</i>
+<i data-on="" style={{animationDelay: '240ms'}}>
+</i>
+<i data-on="" style={{animationDelay: '360ms'}}>
+</i>
+<i data-on="" style={{animationDelay: '480ms'}}>
+</i>
+</span>
+</span>
+<span className="ui-acrc__who">
+<span className="ui-acrc__name" dir="auto" title="Web search">Web search</span>
+</span>
+<span className="ui-acrc__status" data-status="idle" data-icon="" title="Idle">
+<svg width="12" height="12" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+<circle cx="12" cy="12" r="3.5" fill="currentColor">
+</circle>
+</svg>
+</span>
+</div>
+<p className="ui-acrc__act" dir="auto" title="Idle">Idle</p>
+<div className="ui-acrc__ctx">
+<span className="ui-acrc__meter" aria-hidden="true">
+<i style={{width: '2%'}}>
+</i>
+</span>
+<span className="ui-acrc__num">1k / 64k</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div className="ui-acrc__hang" role="treeitem" aria-label="Coder" style={{"--ui-acrc-col": 1}}>
+<div className="ui-acrc__node" data-status="idle" data-rest="" aria-expanded="false" aria-haspopup="dialog" tabIndex="-1" aria-label="Coder: Idle, Waiting for work, context 6%" style={{"--ui-acrc-c": 'rgba(20, 179, 240, 0.85)'}}>
+<div className="ui-acrc__top">
+<span className="ui-acrc__avatar" aria-hidden="true">
+<span className="ui-acrc__mark">
+<i data-on="" style={{animationDelay: '0ms'}}>
+</i>
+<i style={{animationDelay: '120ms'}}>
+</i>
+<i data-on="" style={{animationDelay: '240ms'}}>
+</i>
+<i data-on="" style={{animationDelay: '120ms'}}>
+</i>
+<i style={{animationDelay: '240ms'}}>
+</i>
+<i data-on="" style={{animationDelay: '360ms'}}>
+</i>
+<i style={{animationDelay: '240ms'}}>
+</i>
+<i data-on="" style={{animationDelay: '360ms'}}>
+</i>
+<i style={{animationDelay: '480ms'}}>
+</i>
+</span>
+</span>
+<span className="ui-acrc__who">
+<span className="ui-acrc__name" dir="auto" title="Coder">Coder</span>
+<span className="ui-acrc__model" title="Claude Sonnet">Claude Sonnet</span>
+</span>
+<span className="ui-acrc__status" data-status="idle">
+<svg width="12" height="12" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+<circle cx="12" cy="12" r="3.5" fill="currentColor">
+</circle>
+</svg>Idle</span>
+</div>
+<p className="ui-acrc__act" dir="auto" title="Waiting for work">Waiting for work</p>
+<div className="ui-acrc__ctx">
+<span className="ui-acrc__meter" aria-hidden="true">
+<i style={{width: '6%'}}>
+</i>
+</span>
+<span className="ui-acrc__num">12k / 200k</span>
+</div>
+<div className="ui-acrc__foot">
+<span className="ui-acrc__tools" aria-hidden="true">
+<span className="ui-acrc__tool">
+<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style={{color: 'var(--ui-acrc-strong, #000)'}}>
+<path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12">
+</path>
+</svg>
+</span>
+<span className="ui-acrc__tool">
+<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style={{color: 'var(--ui-acrc-strong, #000)'}}>
+<path d="M24 22.525H0l12-21.05 12 21.05z">
+</path>
+</svg>
+</span>
+</span>
+</div>
+</div>
+<div className="ui-acrc__below" role="group">
+<div className="ui-acrc__hang" role="treeitem" aria-label="Linter">
+<div className="ui-acrc__node" data-status="idle" data-rest="" data-small="" aria-expanded="false" aria-haspopup="dialog" tabIndex="-1" aria-label="Linter: Idle, Idle, context 3%" style={{"--ui-acrc-c": 'rgba(20, 179, 240, 0.85)'}}>
+<div className="ui-acrc__top">
+<span className="ui-acrc__avatar" aria-hidden="true">
+<span className="ui-acrc__mark">
+<i style={{animationDelay: '0ms'}}>
+</i>
+<i style={{animationDelay: '120ms'}}>
+</i>
+<i style={{animationDelay: '240ms'}}>
+</i>
+<i data-on="" style={{animationDelay: '120ms'}}>
+</i>
+<i style={{animationDelay: '240ms'}}>
+</i>
+<i data-on="" style={{animationDelay: '360ms'}}>
+</i>
+<i data-on="" style={{animationDelay: '240ms'}}>
+</i>
+<i data-on="" style={{animationDelay: '360ms'}}>
+</i>
+<i data-on="" style={{animationDelay: '480ms'}}>
+</i>
+</span>
+</span>
+<span className="ui-acrc__who">
+<span className="ui-acrc__name" dir="auto" title="Linter">Linter</span>
+</span>
+<span className="ui-acrc__status" data-status="idle" data-icon="" title="Idle">
+<svg width="12" height="12" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+<circle cx="12" cy="12" r="3.5" fill="currentColor">
+</circle>
+</svg>
+</span>
+</div>
+<p className="ui-acrc__act" dir="auto" title="Idle">Idle</p>
+<div className="ui-acrc__ctx">
+<span className="ui-acrc__meter" aria-hidden="true">
+<i style={{width: '3%'}}>
+</i>
+</span>
+<span className="ui-acrc__num">960 / 32k</span>
+</div>
+</div>
+</div>
+<div className="ui-acrc__hang" role="treeitem" aria-label="Test runner">
+<div className="ui-acrc__node" data-status="idle" data-rest="" data-small="" aria-expanded="false" aria-haspopup="dialog" tabIndex="-1" aria-label="Test runner: Idle, Idle, context 5%" style={{"--ui-acrc-c": 'rgba(20, 179, 240, 0.85)'}}>
+<div className="ui-acrc__top">
+<span className="ui-acrc__avatar" aria-hidden="true">
+<span className="ui-acrc__mark">
+<i data-on="" style={{animationDelay: '0ms'}}>
+</i>
+<i style={{animationDelay: '120ms'}}>
+</i>
+<i data-on="" style={{animationDelay: '240ms'}}>
+</i>
+<i data-on="" style={{animationDelay: '120ms'}}>
+</i>
+<i data-on="" style={{animationDelay: '240ms'}}>
+</i>
+<i data-on="" style={{animationDelay: '360ms'}}>
+</i>
+<i style={{animationDelay: '240ms'}}>
+</i>
+<i data-on="" style={{animationDelay: '360ms'}}>
+</i>
+<i style={{animationDelay: '480ms'}}>
+</i>
+</span>
+</span>
+<span className="ui-acrc__who">
+<span className="ui-acrc__name" dir="auto" title="Test runner">Test runner</span>
+</span>
+<span className="ui-acrc__status" data-status="idle" data-icon="" title="Idle">
+<svg width="12" height="12" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+<circle cx="12" cy="12" r="3.5" fill="currentColor">
+</circle>
+</svg>
+</span>
+</div>
+<p className="ui-acrc__act" dir="auto" title="Idle">Idle</p>
+<div className="ui-acrc__ctx">
+<span className="ui-acrc__meter" aria-hidden="true">
+<i style={{width: '5%'}}>
+</i>
+</span>
+<span className="ui-acrc__num">3k / 64k</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div className="ui-acrc__hang" role="treeitem" aria-label="Reviewer" style={{"--ui-acrc-col": 1}}>
+<div className="ui-acrc__node" data-status="idle" data-rest="" aria-expanded="false" aria-haspopup="dialog" tabIndex="-1" aria-label="Reviewer: Idle, Waiting for work, context 3%" style={{"--ui-acrc-c": 'rgba(95, 200, 138, 0.9)'}}>
+<div className="ui-acrc__top">
+<span className="ui-acrc__avatar" aria-hidden="true">
+<span className="ui-acrc__mark">
+<i style={{animationDelay: '0ms'}}>
+</i>
+<i data-on="" style={{animationDelay: '120ms'}}>
+</i>
+<i style={{animationDelay: '240ms'}}>
+</i>
+<i data-on="" style={{animationDelay: '120ms'}}>
+</i>
+<i data-on="" style={{animationDelay: '240ms'}}>
+</i>
+<i data-on="" style={{animationDelay: '360ms'}}>
+</i>
+<i data-on="" style={{animationDelay: '240ms'}}>
+</i>
+<i style={{animationDelay: '360ms'}}>
+</i>
+<i data-on="" style={{animationDelay: '480ms'}}>
+</i>
+</span>
+</span>
+<span className="ui-acrc__who">
+<span className="ui-acrc__name" dir="auto" title="Reviewer">Reviewer</span>
+<span className="ui-acrc__model" title="Claude Opus">Claude Opus</span>
+</span>
+<span className="ui-acrc__status" data-status="idle">
+<svg width="12" height="12" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+<circle cx="12" cy="12" r="3.5" fill="currentColor">
+</circle>
+</svg>Idle</span>
+</div>
+<p className="ui-acrc__act" dir="auto" title="Waiting for work">Waiting for work</p>
+<div className="ui-acrc__ctx">
+<span className="ui-acrc__meter" aria-hidden="true">
+<i style={{width: '3%'}}>
+</i>
+</span>
+<span className="ui-acrc__num">6k / 200k</span>
+</div>
+<div className="ui-acrc__foot">
+<span className="ui-acrc__tools" aria-hidden="true">
+<span className="ui-acrc__tool">
+<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style={{color: 'var(--ui-acrc-strong, #000)'}}>
+<path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12">
+</path>
+</svg>
+</span>
+</span>
+</div>
+</div>
+<div className="ui-acrc__below" role="group">
+<div className="ui-acrc__hang" role="treeitem" aria-label="Docs writer">
+<div className="ui-acrc__node" data-status="idle" data-rest="" data-small="" aria-expanded="false" aria-haspopup="dialog" tabIndex="-1" aria-label="Docs writer: Idle, Idle, context 5%" style={{"--ui-acrc-c": 'rgba(95, 200, 138, 0.9)'}}>
+<div className="ui-acrc__top">
+<span className="ui-acrc__avatar" aria-hidden="true">
+<span className="ui-acrc__mark">
+<i data-on="" style={{animationDelay: '0ms'}}>
+</i>
+<i data-on="" style={{animationDelay: '120ms'}}>
+</i>
+<i data-on="" style={{animationDelay: '240ms'}}>
+</i>
+<i style={{animationDelay: '120ms'}}>
+</i>
+<i data-on="" style={{animationDelay: '240ms'}}>
+</i>
+<i style={{animationDelay: '360ms'}}>
+</i>
+<i data-on="" style={{animationDelay: '240ms'}}>
+</i>
+<i data-on="" style={{animationDelay: '360ms'}}>
+</i>
+<i data-on="" style={{animationDelay: '480ms'}}>
+</i>
+</span>
+</span>
+<span className="ui-acrc__who">
+<span className="ui-acrc__name" dir="auto" title="Docs writer">Docs writer</span>
+</span>
+<span className="ui-acrc__status" data-status="idle" data-icon="" title="Idle">
+<svg width="12" height="12" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+<circle cx="12" cy="12" r="3.5" fill="currentColor">
+</circle>
+</svg>
+</span>
+</div>
+<p className="ui-acrc__act" dir="auto" title="Idle">Idle</p>
+<div className="ui-acrc__ctx">
+<span className="ui-acrc__meter" aria-hidden="true">
+<i style={{width: '5%'}}>
+</i>
+</span>
+<span className="ui-acrc__num">6k / 128k</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div className="ui-acrc__sr" aria-live="polite">Lead handed to Researcher: Find where empty carts crash</div>
+</section>
+</div>

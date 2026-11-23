@@ -1,0 +1,8 @@
+:where(.ui-cpc) button { margin: 0px; padding: 0px; border: 0px; background: none; font: inherit; color: inherit; cursor: pointer; }
+:where(.ui-cpc) svg { display: block; flex: 0 0 auto; }
+.stage__look { place-items: inherit; width: 100%; min-width: 0px; height: 100%; display: grid; }
+.comments-demo { grid-template-columns: minmax(0px, 400px); place-content: center; width: 100%; display: grid; }
+.stage .comments-demo .ui-cp { --ui-cp-max-height: 260px; }
+@media (max-width: 760px){.stage .comments-demo .ui-cp { --ui-cp-max-height: 170px; }}
+.stage .comments-demo .ui-cpc { --ui-cpc-max-height: 260px; }
+@media (max-width: 760px){.stage .comments-demo .ui-cpc { --ui-cpc-max-height: 170px; }}

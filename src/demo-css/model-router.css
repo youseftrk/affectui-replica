@@ -1,0 +1,3 @@
+.stage__look { place-items: inherit; width: 100%; min-width: 0px; height: 100%; display: grid; }
+.mr-demo { grid-template-columns: minmax(0px, 480px); justify-content: center; width: 100%; display: grid; }
+.stage:has(.mr-demo) { height: auto; min-height: 720px; overflow: visible; }

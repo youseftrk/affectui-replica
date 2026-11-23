@@ -1,0 +1,12 @@
+.stage__look { place-items: inherit; width: 100%; min-width: 0px; height: 100%; display: grid; }
+.nmi-demo { grid-template-columns: minmax(0px, 360px); place-content: center; width: 100%; display: grid; }
+.nmi-demo__tray { box-sizing: border-box; background: rgb(240, 240, 240); border-radius: 20px; min-width: 0px; padding: 4px; }
+.nmi-demo__card { background: rgb(255, 255, 255); border-radius: 16px; gap: 18px; margin: 0px; padding: 22px 20px; display: grid; box-shadow: rgb(236, 236, 236) 0px 0px 0px 1px, rgba(0, 0, 0, 0.04) 0px 1px 2px; }
+:where(.dark, [data-theme="dark"]) .nmi-demo__tray { background: rgb(17, 17, 19); }
+:where(.dark, [data-theme="dark"]) .nmi-demo__card { background: rgb(22, 22, 24); box-shadow: rgb(42, 42, 46) 0px 0px 0px 1px, rgba(0, 0, 0, 0.2) 0px 1px 2px; }
+.nmi-democ { box-sizing: border-box; background: rgb(255, 255, 255); border-radius: 10px; gap: 16px; min-width: 0px; margin: 0px; padding: 20px; display: grid; box-shadow: rgba(0, 0, 0, 0.06) 0px 0px 0px 0.5px, rgba(0, 0, 0, 0.1) 0px 1px 1px -1px, rgba(0, 0, 0, 0.05) 0px 1px 2px; }
+:where(.dark, [data-theme="dark"]) .nmi-democ { background: rgb(20, 20, 22); box-shadow: rgba(255, 255, 255, 0.1) 0px 0px 0px 0.5px, rgba(0, 0, 0, 0.4) 0px 1px 2px; }
+.nmi-demo__row, .nmi-democ__row { grid-template-columns: repeat(2, minmax(0px, 1fr)); gap: 12px; display: grid; }
+.stage:has(.nmi-demo) { height: 480px; padding: 40px 24px; }
+@media (max-width: 560px){.stage:has(.nmi-demo) { height: auto; min-height: 480px; padding: 120px 12px 24px; }}
+@media (max-width: 560px){.nmi-democ, .nmi-demo__card { padding: 16px; }}

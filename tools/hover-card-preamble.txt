@@ -1,0 +1,23 @@
+useEffect(() => {
+    // live demo ships with its hover-card popover open, anchored to the "Scout" link
+    const place = () => {
+      document.querySelectorAll('.hvc-demo [popover]').forEach((el) => {
+        if (!(el instanceof HTMLElement)) return;
+        const tip = el as HTMLElement;
+        if (!tip.matches(':popover-open')) { try { tip.showPopover(); } catch {} }
+        let trig: HTMLElement | null = null;
+        let prev = tip.previousElementSibling;
+        while (prev && !trig) {
+          if (prev instanceof HTMLElement && (prev.tagName === 'A' || prev.tagName === 'BUTTON' || prev.getAttribute('role') === 'button' || prev.hasAttribute('tabindex'))) trig = prev;
+          else prev = prev.previousElementSibling;
+        }
+        if (!trig) return;
+        const tR = trig.getBoundingClientRect();
+        tip.style.top = `${tR.bottom + 8}px`;
+        tip.style.left = `${tR.left}px`;
+      });
+    };
+    place();
+    window.addEventListener('resize', place);
+    return () => window.removeEventListener('resize', place);
+  }, []);

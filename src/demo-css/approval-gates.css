@@ -1,0 +1,37 @@
+:where(.ui-gatec) button { margin: 0px; padding: 0px; border: 0px; background: none; font: inherit; color: inherit; text-align: inherit; cursor: pointer; -webkit-tap-highlight-color: transparent; }
+.page-head { flex-wrap: wrap; align-items: baseline; gap: 12px; padding-bottom: 21px; display: flex; }
+.page-head__title { letter-spacing: -0.6px; font-size: 24px; font-weight: 500; line-height: 30px; }
+.page-head__count { color: var(--text-muted); font-size: 13px; }
+.page-head__intro { color: var(--text-muted); text-wrap: pretty; flex-direction: column; gap: 8px; margin-top: -9px; padding-bottom: 24px; font-size: 14px; line-height: 22px; display: flex; }
+.card__stage { aspect-ratio: 16 / 10; border-radius: calc(var(--radius-card) - var(--card-inset)); background: var(--preview); width: 100%; min-width: 0px; min-height: 230px; box-shadow: inset 0 0 0 1px var(--card-stroke); position: relative; overflow: hidden; }
+.card__tag, .card__pro { border-radius: var(--radius-pill); align-items: center; height: 22px; padding: 0px 8px; font-size: 11px; font-weight: 500; display: inline-flex; position: absolute; top: 10.5px; }
+.card__tag { background: var(--card); color: var(--text-muted); box-shadow: 0 0 0 1px var(--border-soft); left: 10.5px; }
+@media (max-width: 640px){.card__stage { aspect-ratio: auto; height: 260px; min-height: 0px; }}
+.region-note__flag { font-size: 15px; line-height: 1; }
+.upsell__tag { background: var(--pro-bg); height: 20px; color: var(--pro-from); border-radius: 6px; align-items: center; gap: 4px; padding: 0px 7px; font-size: 12px; font-weight: 500; display: inline-flex; }
+.screen-stage { border-radius: inherit; width: 100%; position: relative; overflow: hidden; }
+.screen-stage__canvas { transform-origin: 0px 0px; position: absolute; top: 0px; left: 0px; }
+.screen-stage__canvas > * { height: 100%; }
+.grid--screens .card__stage { min-height: 0px; }
+@media (max-width: 640px){.grid--screens .card__stage { aspect-ratio: 16 / 10; height: auto; }}
+.grid--screens .card__tag { display: none; }
+.stage__theme { align-items: center; gap: 2px; display: flex; }
+.stage__shell svg { --switch-card: var(--card); }
+.preview-bar__controls .stage__theme-btn { position: relative; }
+.preview-bar__controls .stage__theme-btn::after { content: attr(data-tip); z-index: 20; background: var(--text); color: var(--bg); white-space: nowrap; opacity: 0; pointer-events: none; border-radius: 7px; padding: 4px 8px; font-size: 11.5px; font-weight: 500; line-height: 16px; transition: opacity 0.14s, transform 0.16s; position: absolute; bottom: calc(100% + 8px); left: 50%; transform: translate(-50%, 4px); }
+.preview-bar__controls .stage__theme-btn:is(:hover, :focus-visible)::after { opacity: 1; transform: translate(-50%); }
+.stage__shell .stage__theme-btn[aria-checked="true"] { color: var(--text); }
+.stage__theme-btn { width: 28px; height: 28px; color: var(--text-subtle); cursor: pointer; background: 0px 0px; border: 0px; border-radius: 999px; place-items: center; padding: 0px; transition: background-color 0.14s, color 0.14s; display: grid; }
+.stage__theme-btn:hover { color: var(--text); }
+.stage__theme-btn[aria-checked="true"] { background: var(--muted-bg); color: var(--text); }
+.style-switch button[data-look] svg, .stage__style .stage__theme-btn[data-look] { color: var(--look); }
+.stage__style .stage__theme-btn[data-look][aria-checked="true"] { color: var(--look); }
+.stage__style .stage__theme-btn[data-look][aria-checked="false"] { opacity: 0.75; }
+.stage__style .stage__theme-btn[data-look]:hover { opacity: 1; }
+.stage__style svg { --switch-card: var(--card); }
+@media (max-width: 760px){.stage__style { flex-direction: row; top: 12px; right: 54px; }}
+.ag-demo { grid-template-columns: minmax(0px, 720px); justify-content: center; width: 100%; display: grid; }
+.stage:has(.ag-demo) { height: auto; min-height: 720px; padding-bottom: 32px; }
+.stage .ag-demo { align-self: start; margin-top: 40px; padding-inline: 24px; }
+@media (max-width: 760px){.stage:has(.ag-demo) { height: auto; min-height: 0px; padding-bottom: 12px; padding-left: 12px; padding-right: 12px; }}
+@media (max-width: 760px){.stage .ag-demo { margin-top: 84px; padding-inline: 0px; }}

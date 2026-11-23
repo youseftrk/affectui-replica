@@ -1,0 +1,23 @@
+button.ui-rsc__sources:hover:not(:disabled), .ui-rsc__sources[aria-expanded="true"] { color: var(--ui-rsc-ink); }
+button.ui-rsc__sources:disabled { cursor: default; }
+.account__section--first { padding-top: 24px; }
+.table tr:first-child td { border-top: 0px; }
+.table td:first-child { white-space: nowrap; }
+.table-wrap:not(:has(.compare__table)) .table td:first-child { border-radius: 9px 0px 0px 9px; }
+.tiers { grid-template-columns: repeat(3, minmax(0px, 325px)); justify-content: center; gap: 8px; display: grid; }
+@media (max-width: 960px){.tiers { grid-template-columns: minmax(0px, 440px); }}
+@media (max-width: 960px){.tiers > .tier--pro { order: -2; }}
+@media (max-width: 960px){.tiers > .tier--team { order: -1; }}
+.upsell__list li:first-child { padding-left: 0px; }
+@media (max-width: 760px){.upsell__list li, .upsell__list li:first-child, .upsell__list li:last-child { align-items: center; padding: 12px 0px; }}
+.stage__look { place-items: inherit; width: 100%; min-width: 0px; height: 100%; display: grid; }
+.compare__table th:first-child, .compare__table td:first-child { padding-left: 12px; }
+.compare__table th:first-child { width: 150px; }
+.compare__table tr:first-child td { border-top: 0px; }
+.compare__table td:first-child { color: var(--text); font-weight: 500; }
+.compare__self td:first-child::before { content: ""; z-index: -1; background: linear-gradient(90deg, color-mix(in srgb, var(--pro-from) 7%, transparent), color-mix(in srgb, var(--pro-to) 3%, transparent) 55%, transparent); border-radius: 12px; position: absolute; inset: 6px 0px; }
+.rs-demo { grid-template-columns: minmax(0px, 420px); justify-content: center; width: 100%; transition: opacity 0.4s; display: grid; }
+.rs-demo[data-fading] { opacity: 0; }
+.stage:has(.rs-demo) { align-items: start; height: auto; min-height: 720px; padding-top: 120px; }
+.stage:has(.rs-demo) .stage__look { align-items: start; }
+@media (max-width: 700px){.stage:has(.rs-demo) { min-height: 600px; padding-top: 56px; }}

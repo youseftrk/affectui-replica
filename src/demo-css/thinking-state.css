@@ -1,0 +1,9 @@
+:where(.ui-thinkc) button { margin: 0px; padding: 0px; border: 0px; background: none; font: inherit; color: inherit; cursor: pointer; }
+:where(.ui-thinkc) svg { display: block; flex: 0 0 auto; }
+a.ui-thinkc__source, .ui-thinkc__more { position: relative; cursor: pointer; transition: background-color 160ms, color 160ms; }
+a.ui-thinkc__source:hover { background: var(--ui-tkc-wash); }
+.stage__look { place-items: inherit; width: 100%; min-width: 0px; height: 100%; display: grid; }
+.thinking-demo { grid-template-columns: minmax(0px, 1fr); place-items: center; width: 100%; display: grid; }
+.stage .thinking-demo { align-self: start; margin-top: 56px; }
+@media (max-width: 760px){.stage .thinking-demo { margin-top: 16px; }}
+@media (max-width: 760px){.stage .thinking-demo:has(.ui-thinkc) { margin-top: 72px; }}

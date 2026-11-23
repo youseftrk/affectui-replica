@@ -1,0 +1,7 @@
+// @ts-nocheck
+// Ported verbatim from live demo bundle (react + jsx-runtime shimmed).
+import * as r from 'react';
+import { jsx as __jsx, jsxs as __jsxs, Fragment as __Fragment } from 'react/jsx-runtime';
+const i = { jsx: __jsx, jsxs: __jsxs, Fragment: __Fragment };
+import{t as n}from"./_deps/component.clean-9Y-uZZbg";
+var a=[`Thinking`,`Searching the web`,`Reading 12 sources`,`Comparing pricing`,`Writing response`],o=2e3,s=2600;function c(){let[e,t]=(0,r.useState)(0),[c,l]=(0,r.useState)(!1);return(0,r.useEffect)(()=>{let e=window.setTimeout(()=>l(!0),a.length*o),n=window.setTimeout(()=>{l(!1),t(e=>e+1)},a.length*o+s);return()=>{window.clearTimeout(e),window.clearTimeout(n)}},[e]),(0,i.jsx)(`div`,{className:`tl-demo tl-demo--clean`,children:(0,i.jsxs)(`div`,{className:`tl-demo__chat`,children:[(0,i.jsx)(`p`,{className:`tl-demo__you`,children:`Which CRM fits a 10-person sales team best?`}),(0,i.jsx)(n,{phases:a,interval:o,done:c},e)]})})}export{c as default};

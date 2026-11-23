@@ -1,0 +1,9 @@
+button.ui-atrc__row { cursor: pointer; -webkit-tap-highlight-color: transparent; transition: background-color 140ms; }
+button.ui-atrc__row:hover { background: var(--ui-atrc-hover); }
+div.ui-atrc__row:focus:not(:focus-visible) { outline: none; }
+.atr-demo { grid-template-columns: minmax(0px, 360px); justify-content: center; width: 100%; display: grid; }
+.atr-demo:has(.ui-atr) { grid-template-columns: minmax(0px, 392px); }
+.stage:has(.atr-demo) { height: 520px; }
+.stage .atr-demo { align-self: start; margin-top: 80px; padding-inline: 24px; }
+@media (max-width: 760px){.stage:has(.atr-demo) { padding-left: 12px; padding-right: 12px; }}
+@media (max-width: 760px){.stage .atr-demo { margin-top: 84px; padding-inline: 0px; }}

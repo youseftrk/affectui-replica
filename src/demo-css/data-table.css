@@ -1,0 +1,5 @@
+:where(.ui-dtc) button { margin: 0px; padding: 0px; border: 0px; background: none; font: inherit; color: inherit; cursor: pointer; }
+:where(.ui-dtc) svg { display: block; flex: 0 0 auto; }
+.stage__look { place-items: inherit; width: 100%; min-width: 0px; height: 100%; display: grid; }
+.data-table-demo { grid-template-columns: minmax(0px, 720px); place-content: center; width: 100%; display: grid; }
+:where(.dark, [data-theme="dark"]) .data-table-demo__mono { fill: rgb(237, 237, 237); }

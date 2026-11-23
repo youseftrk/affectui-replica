@@ -1,0 +1,6 @@
+:where(.ui-acuc) button { margin: 0px; padding: 0px; border: 0px; background: none; font: inherit; color: inherit; text-align: inherit; cursor: pointer; -webkit-tap-highlight-color: transparent; }
+.agc-demo { grid-template-columns: minmax(0px, 700px); justify-content: center; width: 100%; display: grid; }
+.stage:has(.agc-demo) { height: 790px; }
+.stage .agc-demo { align-self: start; margin-top: 56px; }
+@media (max-width: 760px){.stage:has(.agc-demo) { height: 830px; padding-left: 12px; padding-right: 12px; }}
+@media (max-width: 760px){.stage .agc-demo { margin-top: 84px; }}

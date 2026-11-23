@@ -1,0 +1,21 @@
+// @ts-nocheck
+// Ported verbatim from live demo bundle (react + jsx-runtime shimmed).
+import * as y from 'react';
+import { jsx as __jsx, jsxs as __jsxs, Fragment as __Fragment } from 'react/jsx-runtime';
+const b = { jsx: __jsx, jsxs: __jsxs, Fragment: __Fragment };
+import{t as n}from"./_deps/HugeiconsIcon-C2cDExRS";
+import{n as r,r as i,t as a}from"./_deps/SortingAZ01Icon-BDynvc_p";
+import{t as o}from"./_deps/ArrowDown01Icon-DDfnNeUj";
+import{t as s}from"./_deps/Clock01Icon-Caopc-kj";
+import{t as c}from"./_deps/Coins01Icon-BF-NvAYp";
+import{t as l}from"./_deps/Copy01Icon-DrPxamgF";
+import{t as u}from"./_deps/Delete02Icon-CsyBlwAn";
+import{t as d}from"./_deps/Folder01Icon-CEhnVDRo";
+import{t as f}from"./_deps/MoreHorizontalIcon-CBUy2huH";
+import{t as p}from"./_deps/Notification03Icon-BmchaGD7";
+import{t as m}from"./_deps/RepeatIcon-CJJ1C8N9";
+import{t as h}from"./_deps/Target02Icon-B_T0iwXf";
+import{t as g}from"./_deps/TestTube01Icon-D7ARShpk";
+import{t as _}from"./_deps/demo-3fgOHrxN";
+import{t as v}from"./_deps/component.clean-Dw9H1CqU";
+var x=[{id:`evals`,name:`Nightly evals`,started:`Today 14:02`,at:3,secs:392,cost:1.84,folder:`Evals`},{id:`docs`,name:`Docs sync`,started:`Today 13:50`,at:2,secs:125,cost:.31,folder:`Agents`},{id:`notes`,name:`Release notes`,started:`Today 11:12`,at:1,secs:708,cost:3.2,folder:`Agents`}],S=[{id:`newest`,label:`Newest`,icon:s,by:(e,t)=>t.at-e.at},{id:`longest`,label:`Longest`,icon:_,by:(e,t)=>t.secs-e.secs},{id:`cost`,label:`Most expensive`,icon:c,by:(e,t)=>t.cost-e.cost},{id:`name`,label:`Name`,icon:a,by:(e,t)=>e.name.localeCompare(t.name)}],C=[{name:`Evals`,icon:h},{name:`Agents`,icon:d},{name:`Experiments`,icon:g},{name:`Archive`,icon:i}],w=e=>`${Math.floor(e/60)}m ${String(e%60).padStart(2,`0`)}s`;function T(){let e=(0,y.useRef)(null),[t,i]=(0,y.useState)(`newest`),[a,s]=(0,y.useState)(()=>Object.fromEntries(x.map(e=>[e.id,e.folder]))),[c,h]=(0,y.useState)({evals:!0}),[g,_]=(0,y.useState)(`Open a run's menu – ⋯ or ↓ on it`),[T,E]=(0,y.useState)(`evals`);(0,y.useLayoutEffect)(()=>{e.current?.closest(`.card__preview`)&&E(null)},[]);let D=S.find(e=>e.id===t)??S[0],O=[...x].sort(D.by),k=e=>[{label:`Rerun`,icon:m,shortcut:`⌘R`,onSelect:()=>_(`Rerun queued for ${e.name}`)},{label:`Duplicate`,icon:l,shortcut:`⌘D`,onSelect:()=>_(`${e.name} duplicated`)},{label:`Copy link`,icon:r,shortcut:`⌘L`,onSelect:()=>_(`Link copied`)},{label:`Move to`,icon:d,divider:!0,submenu:C.map(t=>({label:t.name,icon:t.icon,checked:a[e.id]===t.name,onSelect:()=>{s(n=>({...n,[e.id]:t.name})),_(`${e.name} moved to ${t.name}`)}}))},{label:`Notify when done`,icon:p,type:`checkbox`,checked:!!c[e.id],keepOpen:!0,onSelect:()=>h(t=>({...t,[e.id]:!t[e.id]}))},{label:`Delete run`,icon:u,danger:!0,divider:!0,onSelect:()=>_(`${e.name} would be deleted – kept for the demo`)}];return(0,b.jsx)(`div`,{ref:e,className:`dm-demo`,children:(0,b.jsxs)(`section`,{className:`dm-demo__card`,"aria-label":`Runs`,children:[(0,b.jsxs)(`header`,{className:`dm-demo__head`,children:[(0,b.jsx)(`h3`,{className:`dm-demo__title`,children:`Runs`}),(0,b.jsx)(v,{align:`end`,title:`Sort by`,items:S.map(e=>({label:e.label,icon:e.icon,checked:e.id===t,onSelect:()=>i(e.id)})),trigger:({triggerProps:e})=>(0,b.jsxs)(`button`,{type:`button`,className:`dm-demo__sort`,...e,children:[(0,b.jsx)(`span`,{className:`dm-demo__muted`,children:`Sort:`}),` `,D.label,(0,b.jsx)(n,{icon:o,size:13,strokeWidth:1.8})]})})]}),(0,b.jsx)(`ul`,{className:`dm-demo__rows`,children:O.map(e=>(0,b.jsxs)(`li`,{className:`dm-demo__row`,children:[(0,b.jsx)(`span`,{className:`dm-demo__glyph`,"aria-hidden":`true`,children:(0,b.jsx)(n,{icon:C.find(t=>t.name===a[e.id])?.icon??d,size:15,strokeWidth:1.5})}),(0,b.jsxs)(`span`,{className:`dm-demo__text`,children:[(0,b.jsx)(`span`,{className:`dm-demo__name`,children:e.name}),(0,b.jsxs)(`span`,{className:`dm-demo__meta`,children:[e.started,` · `,w(e.secs),` · $`,e.cost.toFixed(2)]})]}),(0,b.jsx)(v,{align:`end`,items:k(e),open:T===e.id,onOpenChange:t=>E(t?e.id:null),trigger:({triggerProps:t})=>(0,b.jsx)(`button`,{type:`button`,className:`dm-demo__more`,"aria-label":`Actions for ${e.name}`,...t,children:(0,b.jsx)(n,{icon:f,size:16,strokeWidth:1.8})})})]},e.id))}),(0,b.jsx)(`p`,{className:`dm-demo__note`,"aria-live":`polite`,children:g})]})})}export{T as default};

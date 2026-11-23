@@ -1,0 +1,7 @@
+:where(.ui-fbkc) button { margin: 0px; padding: 0px; border: 0px; background: none; font: inherit; color: inherit; cursor: pointer; -webkit-tap-highlight-color: transparent; }
+:where(.ui-fbkc) ol { margin: 0px; padding: 0px; list-style: none; }
+:where(.ui-fbkc) svg { display: block; flex: 0 0 auto; }
+.stage__look { place-items: inherit; width: 100%; min-width: 0px; height: 100%; display: grid; }
+:is(.fc-demo, .fcc-demo) { grid-template-columns: minmax(0px, 740px); justify-content: center; width: 100%; display: grid; }
+.stage:has(:is(.fc-demo, .fcc-demo)) { height: 680px; }
+@media (max-width: 760px){.stage:has(:is(.fc-demo, .fcc-demo)) { height: 660px; padding-left: 12px; padding-right: 12px; }}

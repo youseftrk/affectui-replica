@@ -1,0 +1,5 @@
+:where(.ui-bcc) button { margin: 0px; padding: 0px; border: 0px; background: none; font: inherit; color: inherit; cursor: pointer; }
+:where(.ui-bcc) svg { display: block; flex: 0 0 auto; }
+.breakdown-demo { grid-template-columns: minmax(0px, 560px); place-content: center; width: 100%; display: grid; }
+.stage:has(.breakdown-demo) { height: 800px; }
+.stage .breakdown-demo { align-self: start; margin-top: 24px; }

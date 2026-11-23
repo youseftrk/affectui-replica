@@ -1,0 +1,7 @@
+:where(.ui-isc) button { margin: 0px; padding: 0px; border: 0px; background: none; font: inherit; color: inherit; cursor: pointer; }
+:where(.ui-isc) svg { display: block; flex: 0 0 auto; }
+.stage__look { place-items: inherit; width: 100%; min-width: 0px; height: 100%; display: grid; }
+.integration-demo { grid-template-columns: minmax(0px, 560px); place-content: center; width: 100%; display: grid; }
+@media (max-width: 760px){.stage .integration-demo .ui-is { zoom: 0.84; }}
+.stage .integration-demo .ui-isc { zoom: 1.12; width: 500px; max-width: 100%; }
+@media (max-width: 760px){.stage .integration-demo .ui-isc { zoom: 1; }}

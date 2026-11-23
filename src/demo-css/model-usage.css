@@ -1,0 +1,7 @@
+.muted { color: var(--text-muted); }
+.token--muted { color: var(--text-muted); }
+.stage__look { place-items: inherit; width: 100%; min-width: 0px; height: 100%; display: grid; }
+.mu-demo { grid-template-columns: minmax(0px, 560px); justify-content: center; width: 100%; transition: opacity 0.4s; display: grid; }
+.mu-demo[data-fading] { opacity: 0; }
+.stage:has(.mu-demo) { height: auto; min-height: 640px; }
+@media (max-width: 700px){.stage:has(.mu-demo) { min-height: 600px; }}

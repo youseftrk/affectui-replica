@@ -1,0 +1,5 @@
+:where(.ui-edc) button { appearance: none; margin: 0px; padding: 0px; border: 0px; background: none; font: inherit; color: inherit; cursor: pointer; -webkit-tap-highlight-color: transparent; }
+:where(.ui-edc) svg { display: block; width: 16px; height: 16px; flex: 0 0 auto; fill: none; stroke: currentcolor; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
+.stage__look { place-items: inherit; width: 100%; min-width: 0px; height: 100%; display: grid; }
+.email-draft-demo { grid-template-columns: minmax(0px, 1fr); place-items: center; width: 100%; display: grid; }
+@media (min-width: 700px){.stage .email-draft-demo .ui-edc { zoom: 1.0834; }}

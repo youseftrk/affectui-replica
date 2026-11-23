@@ -1,0 +1,5 @@
+:where(.ui-srn) button { margin: 0px; padding: 0px; border: 0px; background: none; font: inherit; color: inherit; cursor: pointer; }
+.stage__look { place-items: inherit; width: 100%; min-width: 0px; height: 100%; display: grid; }
+.srn-demo { grid-template-columns: minmax(0px, 900px); justify-content: center; width: 100%; display: grid; }
+.stage:has(.srn-demo) { height: 640px; }
+@media (max-width: 760px){.stage:has(.srn-demo) { height: auto; padding: 16px 12px; }}

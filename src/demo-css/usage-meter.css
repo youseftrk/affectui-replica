@@ -1,0 +1,7 @@
+:where(.ui-umc) button { margin: 0px; padding: 0px; border: 0px; background: none; font: inherit; color: inherit; cursor: pointer; -webkit-tap-highlight-color: transparent; }
+:where(.ui-umc) :is(h3, p, ul) { margin: 0px; padding: 0px; }
+:where(.ui-umc) ul { list-style: none; }
+.usage-demo { grid-template-columns: minmax(0px, 460px); place-content: center; width: 100%; display: grid; }
+.stage:has(.usage-demo) { align-items: start; height: 580px; padding: 48px 32px; }
+@media (max-width: 760px){.stage:has(.usage-demo) { height: 690px; padding: 120px 16px 16px; }}
+@media ((width <= 760px) and (hover: none) and (pointer: coarse)){.stage:has(.usage-demo) { height: 770px; }}

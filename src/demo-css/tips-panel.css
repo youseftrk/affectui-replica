@@ -1,0 +1,12 @@
+:where(.ui-tpc) button { margin: 0px; padding: 0px; border: 0px; background: none; font: inherit; color: inherit; cursor: pointer; -webkit-tap-highlight-color: transparent; }
+:where(.ui-tpc) svg { display: block; flex: 0 0 auto; }
+.stage__look { place-items: inherit; width: 100%; min-width: 0px; height: 100%; display: grid; }
+.tips-demo { grid-template-columns: minmax(0px, 720px); place-content: center; width: 100%; display: grid; }
+.tips-demo .ui-tp { transition: opacity 0.26s, transform 0.32s cubic-bezier(0.22, 1, 0.36, 1); }
+.stage .tips-demo .ui-tp { --ui-tp-max-height: 310px; }
+@media (max-width: 760px){.stage .tips-demo .ui-tp { --ui-tp-max-height: 236px; }}
+.tips-demo[data-closing] .ui-tp { opacity: 0; transform: scale(0.98); }
+.tips-demo .ui-tpc { transition: opacity 0.26s, transform 0.32s cubic-bezier(0.22, 1, 0.36, 1); }
+.stage .tips-demo .ui-tpc { --ui-tpc-max-height: 330px; }
+@media (max-width: 760px){.stage .tips-demo .ui-tpc { --ui-tpc-max-height: 256px; }}
+.tips-demo[data-closing] .ui-tpc { opacity: 0; transform: scale(0.98); }

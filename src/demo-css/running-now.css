@@ -1,0 +1,22 @@
+:where(.ui-rnc) button { margin: 0px; padding: 0px; border: 0px; background: none; font: inherit; color: inherit; text-align: inherit; cursor: pointer; -webkit-tap-highlight-color: transparent; }
+button.ui-rnc__btn:hover { background: var(--ui-rnc-press); color: var(--ui-rnc-ink); }
+span.ui-rnc__btn { color: var(--ui-rnc-blue); }
+button.ui-rnc__btn--text:hover { background: color-mix(in srgb, var(--ui-rnc-card), #000 3%); }
+:where(.dark, [data-theme="dark"]) button.ui-rnc__btn--text:hover { background: color-mix(in srgb, var(--ui-rnc-card), #fff 5%); }
+.stage__look { place-items: inherit; width: 100%; min-width: 0px; height: 100%; display: grid; }
+.rn-demo { --rn-demo-bg: #fff; grid-template-columns: minmax(0px, 720px); place-content: start center; width: 100%; height: 440px; font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; display: grid; }
+.rn-demo__bar { background: var(--rn-demo-bg); border-radius: 12px; justify-content: space-between; align-items: center; gap: 12px; height: 48px; padding: 0px 10px 0px 14px; display: flex; box-shadow: rgb(236, 236, 236) 0px 0px 0px 1px, rgba(0, 0, 0, 0.04) 0px 1px 2px; }
+.rn-demo[data-style="clean"] .rn-demo__bar { border-radius: 10px; box-shadow: rgba(0, 0, 0, 0.06) 0px 0px 0px 0.5px, rgba(0, 0, 0, 0.1) 0px 1px 1px -1px, rgba(0, 0, 0, 0.05) 0px 1px 2px; }
+.rn-demo__brand { color: rgb(23, 23, 23); align-items: center; gap: 8px; min-width: 0px; display: flex; }
+.rn-demo__brand > svg { flex: 0 0 auto; }
+.rn-demo__crumb { color: rgb(138, 138, 138); white-space: nowrap; text-overflow: ellipsis; font-size: 13px; line-height: 20px; overflow: hidden; }
+.rn-demo__slash { color: rgb(200, 200, 200); }
+.rn-demo__page { color: rgb(23, 23, 23); font-weight: 500; }
+:where(.dark, [data-theme="dark"]) .rn-demo { --rn-demo-bg: #19191b; }
+:where(.dark, [data-theme="dark"]) .rn-demo__bar { box-shadow: rgb(42, 42, 46) 0px 0px 0px 1px; }
+:where(.dark, [data-theme="dark"]) .rn-demo[data-style="clean"] .rn-demo__bar { box-shadow: rgba(255, 255, 255, 0.1) 0px 0px 0px 0.5px, rgba(0, 0, 0, 0.4) 0px 1px 2px; }
+:where(.dark, [data-theme="dark"]) :is(.rn-demo__brand, .rn-demo__page) { color: rgb(237, 237, 237); }
+:where(.dark, [data-theme="dark"]) .rn-demo__crumb { color: rgb(124, 124, 130); }
+:where(.dark, [data-theme="dark"]) .rn-demo__slash { color: rgb(74, 74, 80); }
+.stage:has(.rn-demo) { align-items: start; height: 560px; padding-top: 72px; }
+@media (max-width: 760px){.stage:has(.rn-demo) { height: 600px; padding: 120px 16px 24px; }}

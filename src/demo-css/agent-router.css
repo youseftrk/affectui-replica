@@ -1,0 +1,8 @@
+button.ui-artrc__score { cursor: pointer; transition: background-color 140ms; }
+button.ui-artrc__score:hover { background: var(--ui-artrc-fill); }
+button.ui-artrc__score:focus-visible { outline: 2px solid var(--ui-artrc-focus); outline-offset: -2px; }
+.artr-demo { grid-template-columns: minmax(0px, 760px); justify-content: center; width: 100%; display: grid; }
+.stage:has(.artr-demo) { height: auto; min-height: 760px; }
+@media (max-width: 760px){.stage:has(.artr-demo) { padding: 56px 12px 16px; }}
+.artr-demo { --artr-red: #e5484d; --artr-violet: #8e4ec6; }
+:where(.dark, [data-theme="dark"]) .artr-demo { --artr-red: #ff6b61; --artr-violet: #b98cf0; }

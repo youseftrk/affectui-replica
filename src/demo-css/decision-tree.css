@@ -1,0 +1,14 @@
+:where(.ui-dctc) :is(button, textarea) { margin: 0px; padding: 0px; border: 0px; background: none; font: inherit; color: inherit; letter-spacing: inherit; text-align: inherit; -webkit-tap-highlight-color: transparent; }
+:where(.ui-dctc) button { cursor: pointer; }
+:where(.ui-dctc) button:disabled { cursor: default; }
+:where(.ui-dctc) :is(p, h3) { margin: 0px; }
+button.ui-dctc__opt:hover:not(:disabled), .ui-dctc__opt[data-hot] { box-shadow: var(--ui-dctc-lift-hot); }
+button.ui-dctc__opt[data-pick]:hover:not(:disabled), .ui-dctc__opt[data-pick][data-hot] { box-shadow: var(--ui-dctc-pick-lift-hot); }
+button.ui-dctc__sopt:hover:not(:disabled), .ui-dctc__sopt[data-hot] { box-shadow: var(--ui-dctc-lift-hot); }
+button.ui-dctc__sopt[data-pick]:hover:not(:disabled), .ui-dctc__sopt[data-pick][data-hot] { box-shadow: var(--ui-dctc-pick-lift-hot); }
+.stage__look { place-items: inherit; width: 100%; min-width: 0px; height: 100%; display: grid; }
+.dct-demo { grid-template-columns: minmax(0px, 960px); justify-content: center; width: 100%; display: grid; }
+.stage:has(.dct-demo) { height: 640px; }
+.stage .dct-demo { align-self: center; padding-inline: 24px; }
+@media (max-width: 760px){.stage:has(.dct-demo) { height: auto; padding-bottom: 12px; padding-left: 12px; padding-right: 12px; }}
+@media (max-width: 760px){.stage .dct-demo { margin-top: 84px; padding-inline: 0px; }}

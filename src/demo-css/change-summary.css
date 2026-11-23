@@ -1,0 +1,2 @@
+:where(.ui-csc) svg { display: block; flex: 0 0 auto; }
+.change-demo { grid-template-columns: minmax(0px, 480px); place-content: center; width: 100%; display: grid; }

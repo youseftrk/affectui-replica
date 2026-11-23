@@ -1,0 +1,4 @@
+:where(.ui-fmc) button { margin: 0px; padding: 0px; border: 0px; background: none; font: inherit; color: inherit; text-align: left; cursor: pointer; -webkit-tap-highlight-color: transparent; }
+:where(.ui-fmc) svg { display: block; flex: 0 0 auto; }
+.filter-menu-demo { grid-template-columns: minmax(0px, 1fr); place-items: center; width: 100%; display: grid; }
+.stage .filter-menu-demo .ui-fmc { zoom: 1.1; width: 400px; max-width: 100%; }

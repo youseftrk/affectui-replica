@@ -1,0 +1,16 @@
+agent-findings
+agent-lanes
+agent-recap
+agent-trail
+chat-composer
+comments-panel
+context-window
+decision-tree
+fallback-chain
+integration-settings
+metering-chart
+permission-request
+reasoning-summary
+run-controls
+stepper-form
+trend-chart

@@ -1,0 +1,7 @@
+// @ts-nocheck
+// Ported verbatim from live demo bundle (react + jsx-runtime shimmed).
+import * as r from 'react';
+import { jsx as __jsx, jsxs as __jsxs, Fragment as __Fragment } from 'react/jsx-runtime';
+const i = { jsx: __jsx, jsxs: __jsxs, Fragment: __Fragment };
+import{t as n}from"./_deps/component.clean-DV_cdhxU";
+function a(){let[e,t]=(0,r.useState)(!0),[a,o]=(0,r.useState)(!1),[s,c]=(0,r.useState)(!0),[l,u]=(0,r.useState)(!1);return(0,i.jsx)(`div`,{className:`sw-demo`,children:(0,i.jsxs)(`div`,{className:`sw-democ`,children:[(0,i.jsxs)(`div`,{className:`sw-democ__rows`,children:[(0,i.jsx)(n,{placement:`end`,label:`Daily digest`,description:`Approvals waiting, runs that finished or failed`,checked:e,onChange:e=>t(e.target.checked)}),(0,i.jsx)(n,{placement:`end`,label:`Weekly usage report`,description:`Credits spent and the busiest agents, every Monday`,checked:a,onChange:e=>o(e.target.checked)}),(0,i.jsx)(n,{placement:`end`,label:`Hold pushes at night`,description:`Mobile pushes wait until morning`,checked:s,onChange:e=>c(e.target.checked)}),(0,i.jsx)(n,{placement:`end`,label:`Sound on new messages`,description:`Needs the desktop app`,disabled:!0})]}),(0,i.jsx)(n,{size:`sm`,label:`Compact rows`,checked:l,onChange:e=>u(e.target.checked)})]})})}export{a as default};

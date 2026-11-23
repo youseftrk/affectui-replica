@@ -1,0 +1,10 @@
+:where(.ui-stpc) button { margin: 0px; padding: 0px; border: 0px; background: none; font: inherit; color: inherit; cursor: pointer; }
+:where(.ui-stpc) svg { display: block; flex: 0 0 auto; }
+:where(.ui-stpc) :is(h2, p, dl, dd, ul, ol) { margin: 0px; }
+button.ui-stpc__step-btn { cursor: pointer; }
+button.ui-stpc__step-btn:hover { background: var(--ui-stpc-wash); }
+button.ui-stpc__step-btn:hover .ui-stpc__step-label { color: var(--ui-stpc-ink); }
+.stage__look { place-items: inherit; width: 100%; min-width: 0px; height: 100%; display: grid; }
+.stepper-form-demo { grid-template-columns: minmax(0px, 480px); place-content: center; width: 100%; display: grid; }
+.stage:has(.stepper-form-demo) { align-items: start; height: 560px; padding: 56px 32px; }
+@media (max-width: 760px){.stage:has(.stepper-form-demo) { height: 640px; padding: 120px 12px 16px; }}

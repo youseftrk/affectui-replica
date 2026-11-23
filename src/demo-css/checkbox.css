@@ -1,0 +1,16 @@
+:where(input[type="checkbox"], input[type="radio"]):focus-visible { outline: 2px solid var(--focus-ring); outline-offset: 2px; border-radius: 4px; }
+.stage__look { place-items: inherit; width: 100%; min-width: 0px; height: 100%; display: grid; }
+.chk-demo { grid-template-columns: minmax(0px, 360px); place-content: center; width: 100%; display: grid; }
+.chk-demo__tray { box-sizing: border-box; background: rgb(240, 240, 240); border-radius: 20px; min-width: 0px; padding: 4px; }
+.chk-democ.chk-demo__card { border-radius: 16px; box-shadow: rgb(236, 236, 236) 0px 0px 0px 1px, rgba(0, 0, 0, 0.04) 0px 1px 2px; }
+:where(.dark, [data-theme="dark"]) .chk-demo__tray { background: rgb(17, 17, 19); }
+:where(.dark, [data-theme="dark"]) .chk-democ.chk-demo__card { background: rgb(22, 22, 24); box-shadow: rgb(42, 42, 46) 0px 0px 0px 1px; }
+.chk-democ { box-sizing: border-box; background: rgb(255, 255, 255); border-radius: 10px; gap: 18px; min-width: 0px; margin: 0px; padding: 20px; font-family: Inter, InterVariable, ui-sans-serif, system-ui, sans-serif; display: grid; box-shadow: rgba(0, 0, 0, 0.06) 0px 0px 0px 0.5px, rgba(0, 0, 0, 0.1) 0px 1px 1px -1px, rgba(0, 0, 0, 0.05) 0px 1px 2px; }
+.chk-democ__group { border: 0px; gap: 10px; min-width: 0px; margin: 0px; padding: 0px; display: grid; }
+.chk-democ__group legend { color: rgba(0, 0, 0, 0.88); margin-bottom: 10px; padding: 0px; font-size: 13px; font-weight: 500; }
+.chk-democ__children { gap: 10px; padding-left: 26px; display: grid; }
+:where(.dark, [data-theme="dark"]) .chk-democ { background: rgb(20, 20, 22); box-shadow: rgba(255, 255, 255, 0.1) 0px 0px 0px 0.5px, rgba(0, 0, 0, 0.4) 0px 1px 2px; }
+:where(.dark, [data-theme="dark"]) .chk-democ__group legend { color: rgba(255, 255, 255, 0.92); }
+.stage:has(.chk-demo) { height: 560px; padding: 40px 24px; }
+@media (max-width: 560px){.stage:has(.chk-demo) { height: auto; min-height: 560px; padding: 120px 12px 24px; }}
+@media (max-width: 560px){.chk-democ { padding: 16px; }}

@@ -1,0 +1,7 @@
+button.ui-awbc__file { cursor: pointer; -webkit-tap-highlight-color: transparent; }
+button.ui-awbc__file:hover, button.ui-awbc__file[aria-expanded="true"] { background: var(--ui-awbc-fill); }
+button.ui-awbc__file:focus-visible { outline: 2px solid var(--ui-awbc-focus); outline-offset: -2px; }
+.awb-demo { grid-template-columns: minmax(0px, 900px); justify-content: center; width: 100%; transition: opacity 0.4s; display: grid; }
+.awb-demo[data-fading] { opacity: 0; }
+.stage:has(.awb-demo) { height: auto; min-height: 0px; overflow: visible; }
+.stage .awb-demo { padding-bottom: 240px; }

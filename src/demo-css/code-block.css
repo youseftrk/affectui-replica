@@ -1,0 +1,3 @@
+.codeb-demo { gap: 12px; width: 100%; min-width: 0px; max-width: 480px; margin: 0px auto; display: grid; }
+.stage:has(.codeb-demo) { height: 460px; padding: 40px 24px; }
+@media (max-width: 560px){.stage:has(.codeb-demo) { padding: 56px 12px 24px; }}

@@ -1,0 +1,47 @@
+.stage__look { place-items: inherit; width: 100%; min-width: 0px; height: 100%; display: grid; }
+.rtg-demo { width: 100%; font-family: var(--aui-font,"Inter", "InterVariable", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif); color: rgba(0, 0, 0, 0.88); -webkit-font-smoothing: antialiased; grid-template-columns: minmax(0px, 400px); place-content: center; font-size: 13px; line-height: 20px; display: grid; }
+.rtg-demo__card { box-sizing: border-box; background: rgb(255, 255, 255); border-radius: 10px; min-width: 0px; box-shadow: rgba(0, 0, 0, 0.06) 0px 0px 0px 0.5px, rgba(0, 0, 0, 0.1) 0px 1px 1px -1px, rgba(0, 0, 0, 0.05) 0px 1px 2px; }
+.rtg-demo__answer { gap: 8px; min-width: 0px; padding: 14px 16px 10px; display: grid; }
+.rtg-demo__who { align-items: center; gap: 8px; min-width: 0px; display: flex; }
+.rtg-demo__name { text-overflow: ellipsis; white-space: nowrap; color: rgb(0, 0, 0); min-width: 0px; font-weight: 500; overflow: hidden; }
+.rtg-demo__time { color: rgba(0, 0, 0, 0.3); flex: 0 0 auto; font-size: 12px; line-height: 16px; }
+.rtg-demo__text { color: rgba(0, 0, 0, 0.61); -webkit-line-clamp: 3; overflow-wrap: anywhere; -webkit-box-orient: vertical; margin: 0px; display: -webkit-box; overflow: hidden; }
+.rtg-demo__ask { justify-content: space-between; align-items: center; gap: 12px; min-width: 0px; height: 28px; margin-right: -4px; display: flex; }
+.rtg-demo__hint { text-overflow: ellipsis; white-space: nowrap; color: rgba(0, 0, 0, 0.45); flex: 1 1 auto; min-width: 0px; font-size: 12px; line-height: 16px; overflow: hidden; }
+.rtg-demo__row { align-items: center; gap: 12px; min-width: 0px; min-height: 52px; padding: 8px 16px; display: flex; box-shadow: rgba(0, 0, 0, 0.06) 0px 0.5px inset; }
+.rtg-demo__label { color: rgb(0, 0, 0); flex: 1 1 auto; min-width: 0px; font-weight: 500; }
+.rtg-demo__word { text-align: end; color: rgba(0, 0, 0, 0.45); flex: 0 0 auto; width: 64px; font-size: 12px; line-height: 16px; }
+.rtg-demo__foot { color: rgba(0, 0, 0, 0.45); align-items: center; gap: 8px; min-width: 0px; height: 40px; padding: 0px 16px; font-size: 12px; line-height: 16px; display: flex; box-shadow: rgba(0, 0, 0, 0.06) 0px 0.5px inset; }
+.rtg-demo__foot b { color: rgba(0, 0, 0, 0.88); font-weight: 500; }
+.rtg-demo__mark { --rtg-demo-mark: #0060e2c7; flex: 0 0 auto; grid-template-columns: repeat(3, 3px); grid-auto-rows: 3px; place-content: center; gap: 1.5px; width: 16px; height: 16px; display: grid; }
+.rtg-demo__mark i { background: var(--rtg-demo-mark); opacity: 0; border-radius: 0.75px; }
+.rtg-demo__mark i[data-on] { opacity: 1; }
+:where(.dark, [data-theme="dark"]) .rtg-demo { color: rgba(255, 255, 255, 0.9); }
+:where(.dark, [data-theme="dark"]) .rtg-demo__card { background: rgb(20, 20, 22); box-shadow: rgba(255, 255, 255, 0.1) 0px 0px 0px 0.5px, rgba(0, 0, 0, 0.4) 0px 1px 2px; }
+:where(.dark, [data-theme="dark"]) .rtg-demo :is(.rtg-demo__name, .rtg-demo__label) { color: rgb(255, 255, 255); }
+:where(.dark, [data-theme="dark"]) .rtg-demo__text { color: rgba(255, 255, 255, 0.62); }
+:where(.dark, [data-theme="dark"]) .rtg-demo :is(.rtg-demo__hint, .rtg-demo__word, .rtg-demo__foot) { color: rgba(255, 255, 255, 0.46); }
+:where(.dark, [data-theme="dark"]) .rtg-demo__time { color: rgba(255, 255, 255, 0.3); }
+:where(.dark, [data-theme="dark"]) .rtg-demo__foot b { color: rgba(255, 255, 255, 0.9); }
+:where(.dark, [data-theme="dark"]) .rtg-demo :is(.rtg-demo__row, .rtg-demo__foot) { box-shadow: rgba(255, 255, 255, 0.08) 0px 0.5px inset; }
+:where(.dark, [data-theme="dark"]) .rtg-demo__mark { --rtg-demo-mark: #4d8dffd9; }
+.rtg-demo--classic { color: rgb(23, 23, 23); }
+.rtg-demo--classic .rtg-demo__card { border-radius: 16px; outline: 4px solid rgb(240, 240, 240); box-shadow: rgb(236, 236, 236) 0px 0px 0px 1px, rgba(0, 0, 0, 0.04) 0px 1px 2px; }
+.rtg-demo--classic .rtg-demo__answer { padding: 16px 18px 12px; }
+.rtg-demo--classic .rtg-demo__ask { height: 32px; }
+.rtg-demo--classic :is(.rtg-demo__name, .rtg-demo__label) { color: rgb(23, 23, 23); }
+.rtg-demo--classic .rtg-demo__text { color: rgb(82, 82, 82); }
+.rtg-demo--classic :is(.rtg-demo__hint, .rtg-demo__word, .rtg-demo__foot) { color: rgb(143, 143, 143); }
+.rtg-demo--classic .rtg-demo__row { min-height: 56px; padding: 8px 18px; box-shadow: rgb(240, 240, 240) 0px 1px inset; }
+.rtg-demo--classic .rtg-demo__foot { height: 44px; padding: 0px 18px; box-shadow: rgb(240, 240, 240) 0px 1px inset; }
+.rtg-demo--classic .rtg-demo__foot b { color: rgb(23, 23, 23); }
+:where(.dark, [data-theme="dark"]) .rtg-demo--classic { color: rgb(237, 237, 237); }
+:where(.dark, [data-theme="dark"]) .rtg-demo--classic .rtg-demo__card { background: rgb(22, 22, 24); outline-color: rgb(17, 17, 19); box-shadow: rgb(42, 42, 46) 0px 0px 0px 1px; }
+:where(.dark, [data-theme="dark"]) .rtg-demo--classic :is(.rtg-demo__name, .rtg-demo__label, .rtg-demo__foot b) { color: rgb(237, 237, 237); }
+:where(.dark, [data-theme="dark"]) .rtg-demo--classic .rtg-demo__text { color: rgb(161, 161, 168); }
+:where(.dark, [data-theme="dark"]) .rtg-demo--classic :is(.rtg-demo__row, .rtg-demo__foot) { box-shadow: rgb(38, 38, 42) 0px 1px inset; }
+.stage:has(.rtg-demo) { height: 480px; padding: 40px 24px; }
+@media (max-width: 560px){.stage:has(.rtg-demo) { height: auto; min-height: 480px; padding: 120px 12px 24px; }}
+@media (max-width: 560px){.rtg-demo__row { flex-wrap: wrap; row-gap: 4px; }}
+@media (max-width: 560px){.rtg-demo__label { flex-basis: 100%; }}
+@media (max-width: 560px){.rtg-demo__word { flex: 1 1 auto; width: auto; min-width: 0px; }}

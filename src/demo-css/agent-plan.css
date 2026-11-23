@@ -1,0 +1,27 @@
+:where(.ui-plc) button { margin: 0px; padding: 0px; border: 0px; background: none; font: inherit; letter-spacing: inherit; color: inherit; cursor: pointer; }
+.sidebar-search__field input::placeholder { color: var(--text-muted); }
+.plan { border-radius: var(--radius-card); background: var(--card); border: 1px solid var(--card-stroke); margin-top: 28px; padding: 20px; box-shadow: rgba(0, 0, 0, 0.04) 0px 1px 1.5px; }
+.plan__head { justify-content: space-between; align-items: center; gap: 12px; display: flex; }
+.plan__head h2 { font-size: 15px; font-weight: 500; }
+.plan__rule { background: var(--text); border-radius: 1px; width: 28px; height: 2px; margin: 16px 0px; display: block; }
+.plan p { color: var(--text-muted); font-size: 13px; line-height: 20px; }
+.plan strong { color: var(--text); font-weight: 400; }
+.plan__details { gap: 20px; margin-top: 20px; display: grid; }
+.plan__facts { border-block: 1px solid var(--border-soft); grid-template-columns: repeat(3, minmax(0px, 1fr)); gap: 12px; margin: 0px; padding: 14px 0px; display: grid; }
+.plan__facts dt { color: var(--text-muted); font-size: 12px; line-height: 16px; }
+.plan__facts dd { color: var(--text); font-variant-numeric: tabular-nums; margin: 2px 0px 0px; font-size: 14px; font-weight: 500; line-height: 20px; }
+.plan .plan__includes { grid-template-columns: repeat(2, minmax(0px, 1fr)); gap: 10px 16px; display: grid; }
+.plan__seats { gap: 8px; display: grid; }
+.plan__seats-row { justify-content: space-between; font-size: 13px; display: flex; }
+.plan__seats-count { color: var(--text-muted); font-variant-numeric: tabular-nums; }
+.plan__seats-bar { border-radius: var(--radius-pill); background: var(--panel); height: 6px; display: block; position: relative; overflow: hidden; }
+.plan__seats-bar > span { border-radius: inherit; background: var(--text); transition: width 0.3s; position: absolute; inset: 0px auto 0px 0px; }
+@media (max-width: 640px){.plan .plan__includes, .billing__pair { grid-template-columns: minmax(0px, 1fr); }}
+.doc__example + .doc__example, .doc__p--spaced { padding-top: 16px; }
+.wish__note::placeholder { color: var(--text-muted); opacity: 0.8; }
+.stage__look { place-items: inherit; width: 100%; min-width: 0px; height: 100%; display: grid; }
+.pl-demo { grid-template-columns: minmax(0px, 440px); justify-content: center; width: 100%; display: grid; }
+.stage:has(.pl-demo) { height: 620px; }
+.stage .pl-demo { align-self: start; margin-top: 56px; }
+@media (max-width: 760px){.stage:has(.pl-demo) { height: 770px; padding-left: 12px; padding-right: 12px; }}
+@media (max-width: 760px){.stage .pl-demo { margin-top: 70px; }}

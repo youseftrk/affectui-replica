@@ -1,0 +1,72 @@
+.stage__look { place-items: inherit; width: 100%; min-width: 0px; height: 100%; display: grid; }
+.hvc-demo { --hvc-demo-focus: #0060e2b3; --hvc-demo-mark: #0060e2c7; width: 100%; font-family: var(--aui-font,"Inter", "InterVariable", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif); color: rgba(0, 0, 0, 0.88); -webkit-font-smoothing: antialiased; grid-template-columns: minmax(0px, 420px); place-content: center; font-size: 13px; line-height: 20px; display: grid; }
+:where(.dark, [data-theme="dark"]) .hvc-demo { --hvc-demo-focus: #4d8dffcc; --hvc-demo-mark: #4d8dffd9; color: rgba(255, 255, 255, 0.9); }
+.hvc-demo__card { box-sizing: border-box; background: rgb(255, 255, 255); border-radius: 10px; min-width: 0px; padding: 4px 0px 8px; box-shadow: rgba(0, 0, 0, 0.06) 0px 0px 0px 0.5px, rgba(0, 0, 0, 0.1) 0px 1px 1px -1px, rgba(0, 0, 0, 0.05) 0px 1px 2px; }
+.hvc-demo__head { align-items: center; height: 40px; padding: 0px 16px; display: flex; }
+.hvc-demo__title { letter-spacing: 0.5px; text-transform: uppercase; color: rgba(0, 0, 0, 0.45); margin: 0px; font-size: 10px; font-weight: 500; line-height: 16px; }
+.hvc-demo__feed { margin: 0px; padding: 0px; list-style: none; }
+.hvc-demo__entry { box-sizing: border-box; align-items: flex-start; gap: 10px; min-height: 44px; padding: 12px 16px; display: flex; }
+.hvc-demo__entry > .hvc-demo__mark { margin-top: 2px; }
+.hvc-demo__text { color: rgba(0, 0, 0, 0.61); overflow-wrap: anywhere; flex: 1 1 0%; min-width: 0px; margin: 0px; }
+.hvc-demo__when { color: rgba(0, 0, 0, 0.27); font-variant-numeric: tabular-nums; flex: 0 0 auto; font-size: 12px; }
+.hvc-demo__link { color: rgba(0, 0, 0, 0.88); text-underline-offset: 3px; border-radius: 3px; font-weight: 500; text-decoration: underline dotted rgba(0, 0, 0, 0.27); transition: text-decoration-color 0.12s; }
+.hvc-demo__link:hover { text-decoration-color: rgba(0, 0, 0, 0.61); }
+.hvc-demo__link--file { font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 12px; font-weight: 400; }
+.hvc-demo__link:focus-visible, .hvc-demo__open:focus-visible { outline: 2px solid var(--hvc-demo-focus); outline-offset: 2px; }
+.hvc-demo__mark { flex: 0 0 auto; grid-template-columns: repeat(3, 3px); grid-auto-rows: 3px; place-content: center; gap: 1.5px; width: 16px; height: 16px; display: grid; }
+.hvc-demo__mark i { background: var(--hvc-demo-mark); opacity: 0; border-radius: 0.75px; }
+.hvc-demo__mark i[data-on] { opacity: 1; }
+.hvc-demo__mark[data-busy] i[data-on] { animation: 1.2s ease-in-out 0s infinite normal both running hvc-demo-pixel; }
+.hvc-demo__preview { gap: 10px; min-width: 0px; display: grid; }
+.hvc-demo__who { align-items: center; gap: 10px; min-width: 0px; display: flex; }
+.hvc-demo__tile { color: rgba(0, 0, 0, 0.45); background: rgba(0, 0, 0, 0.035); border-radius: 8px; flex: 0 0 auto; place-items: center; width: 32px; height: 32px; display: grid; }
+.hvc-demo__tile[data-kind="code"] { color: rgb(1, 144, 254); }
+.hvc-demo__tile[data-kind="csv"] { color: rgb(95, 200, 138); }
+.hvc-demo__names { min-width: 0px; display: grid; }
+.hvc-demo__name { white-space: nowrap; text-overflow: ellipsis; color: rgb(0, 0, 0); font-weight: 500; overflow: hidden; }
+.hvc-demo__sub { white-space: nowrap; text-overflow: ellipsis; color: rgba(0, 0, 0, 0.45); font-size: 12px; line-height: 16px; overflow: hidden; }
+.hvc-demo__about, .hvc-demo__line { color: rgba(0, 0, 0, 0.61); margin: 0px; }
+.hvc-demo__line { color: rgba(0, 0, 0, 0.45); font-variant-numeric: tabular-nums; font-size: 12px; line-height: 16px; }
+.hvc-demo__facts { gap: 4px; margin: 0px; padding-top: 10px; display: grid; box-shadow: rgba(0, 0, 0, 0.06) 0px 0.5px inset; }
+.hvc-demo__facts > div { justify-content: space-between; gap: 12px; font-size: 12px; line-height: 16px; display: flex; }
+.hvc-demo__facts dt { color: rgba(0, 0, 0, 0.45); }
+.hvc-demo__facts dd { color: rgba(0, 0, 0, 0.88); text-align: end; font-variant-numeric: tabular-nums; margin: 0px; }
+.hvc-demo__open { color: rgba(0, 0, 0, 0.88); border-radius: 6px; justify-content: center; align-items: center; gap: 4px; height: 28px; font-weight: 500; text-decoration: none; display: inline-flex; box-shadow: rgba(0, 0, 0, 0.06) 0px 0px 0px 0.5px, rgba(0, 0, 0, 0.1) 0px 1px 1px -1px, rgba(0, 0, 0, 0.05) 0px 1px 2px; }
+.hvc-demo__open:hover { background: rgba(0, 0, 0, 0.02); }
+.hvc-demo__open svg { color: rgba(0, 0, 0, 0.45); }
+:where(.dark, [data-theme="dark"]) .hvc-demo__card { background: rgb(20, 20, 22); box-shadow: rgba(255, 255, 255, 0.1) 0px 0px 0px 0.5px, rgba(0, 0, 0, 0.4) 0px 1px 2px; }
+:where(.dark, [data-theme="dark"]) .hvc-demo :is(.hvc-demo__title, .hvc-demo__sub, .hvc-demo__line, .hvc-demo__facts dt, .hvc-demo__open svg) { color: rgba(255, 255, 255, 0.46); }
+:where(.dark, [data-theme="dark"]) .hvc-demo :is(.hvc-demo__text, .hvc-demo__about) { color: rgba(255, 255, 255, 0.62); }
+:where(.dark, [data-theme="dark"]) .hvc-demo__when { color: rgba(255, 255, 255, 0.28); }
+:where(.dark, [data-theme="dark"]) .hvc-demo :is(.hvc-demo__link, .hvc-demo__facts dd, .hvc-demo__open) { color: rgba(255, 255, 255, 0.9); }
+:where(.dark, [data-theme="dark"]) .hvc-demo__link { text-decoration-color: rgba(255, 255, 255, 0.28); }
+:where(.dark, [data-theme="dark"]) .hvc-demo__link:hover { text-decoration-color: rgba(255, 255, 255, 0.62); }
+:where(.dark, [data-theme="dark"]) .hvc-demo__name { color: rgb(255, 255, 255); }
+:where(.dark, [data-theme="dark"]) .hvc-demo__tile { color: rgba(255, 255, 255, 0.6); background: rgba(255, 255, 255, 0.06); }
+:where(.dark, [data-theme="dark"]) .hvc-demo__tile[data-kind="code"] { color: rgb(1, 144, 254); }
+:where(.dark, [data-theme="dark"]) .hvc-demo__tile[data-kind="csv"] { color: rgb(95, 200, 138); }
+:where(.dark, [data-theme="dark"]) .hvc-demo__facts { box-shadow: rgba(255, 255, 255, 0.08) 0px 0.5px inset; }
+:where(.dark, [data-theme="dark"]) .hvc-demo__open { box-shadow: rgba(255, 255, 255, 0.12) 0px 0px 0px 0.5px; }
+:where(.dark, [data-theme="dark"]) .hvc-demo__open:hover { background: rgba(255, 255, 255, 0.04); }
+.hvc-demo--classic { color: rgb(23, 23, 23); }
+.hvc-demo--classic .hvc-demo__card { border-radius: 16px; outline: 4px solid rgb(240, 240, 240); box-shadow: rgb(236, 236, 236) 0px 0px 0px 1px, rgba(0, 0, 0, 0.04) 0px 1px 2px; }
+.hvc-demo--classic .hvc-demo__title { letter-spacing: 0px; text-transform: none; color: rgb(23, 23, 23); font-size: 13px; line-height: 20px; }
+.hvc-demo--classic .hvc-demo__text { color: rgb(82, 82, 82); }
+.hvc-demo--classic .hvc-demo__link { color: rgb(23, 23, 23); }
+.hvc-demo--classic .hvc-demo__tile { background: rgb(244, 244, 245); border-radius: 9px; }
+.hvc-demo--classic .hvc-demo__name { color: rgb(23, 23, 23); }
+.hvc-demo--classic .hvc-demo__open { border-radius: 8px; height: 32px; box-shadow: rgb(229, 229, 229) 0px 0px 0px 1px, rgba(0, 0, 0, 0.04) 0px 1px 2px; }
+.hvc-demo--classic .hvc-demo__facts { box-shadow: rgb(240, 240, 240) 0px 1px inset; }
+:where(.dark, [data-theme="dark"]) .hvc-demo--classic { color: rgb(237, 237, 237); }
+:where(.dark, [data-theme="dark"]) .hvc-demo--classic .hvc-demo__card { background: rgb(22, 22, 24); outline-color: rgb(17, 17, 19); box-shadow: rgb(42, 42, 46) 0px 0px 0px 1px; }
+:where(.dark, [data-theme="dark"]) .hvc-demo--classic .hvc-demo__title { color: rgb(237, 237, 237); }
+:where(.dark, [data-theme="dark"]) .hvc-demo--classic .hvc-demo__tile { background: rgb(35, 35, 38); }
+:where(.dark, [data-theme="dark"]) .hvc-demo--classic .hvc-demo__name { color: rgb(237, 237, 237); }
+:where(.dark, [data-theme="dark"]) .hvc-demo--classic .hvc-demo__open { box-shadow: rgb(42, 42, 46) 0px 0px 0px 1px; }
+:where(.dark, [data-theme="dark"]) .hvc-demo--classic .hvc-demo__facts { box-shadow: rgb(38, 38, 42) 0px 1px inset; }
+.stage:has(.hvc-demo) { align-items: start; height: 500px; padding: 64px 24px 40px; }
+@media (max-width: 560px){.stage:has(.hvc-demo) { height: auto; min-height: 500px; padding: 48px 12px 24px; }}
+@media (pointer: coarse){.hvc-demo__open { height: 36px; }}
+@media (prefers-reduced-motion: reduce){.hvc-demo__mark[data-busy] i[data-on] { animation: auto ease 0s 1 normal none running none; }}
+@media (prefers-reduced-motion: reduce){.hvc-demo__link { transition: none; }}
+@keyframes hvc-demo-pixel {0%, 100%{opacity: 1;}50%{opacity: 0.2;}}

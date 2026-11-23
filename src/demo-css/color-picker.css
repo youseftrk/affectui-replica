@@ -1,0 +1,36 @@
+.clp-demo { width: 100%; font-family: var(--aui-font,"Inter", "InterVariable", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif); color: rgba(0, 0, 0, 0.88); -webkit-font-smoothing: antialiased; grid-template-columns: minmax(0px, 420px); place-content: center; font-size: 13px; line-height: 20px; display: grid; }
+:where(.dark, [data-theme="dark"]) .clp-demo { color: rgba(255, 255, 255, 0.9); }
+.clp-demo__card { box-sizing: border-box; background: rgb(255, 255, 255); border-radius: 10px; min-width: 0px; box-shadow: rgba(0, 0, 0, 0.06) 0px 0px 0px 0.5px, rgba(0, 0, 0, 0.1) 0px 1px 1px -1px, rgba(0, 0, 0, 0.05) 0px 1px 2px; }
+.clp-demo__row { align-items: center; gap: 12px; min-width: 0px; padding: 14px 14px 14px 16px; display: flex; }
+.clp-demo__text { flex: 1 1 auto; min-width: 0px; display: grid; }
+.clp-demo__name { color: rgb(0, 0, 0); text-overflow: ellipsis; white-space: nowrap; font-weight: 500; overflow: hidden; }
+.clp-demo__meta { color: rgba(0, 0, 0, 0.45); font-size: 12px; line-height: 16px; }
+.clp-demo__foot { color: rgba(0, 0, 0, 0.45); align-items: center; gap: 8px; min-width: 0px; height: 40px; padding: 0px 16px; font-size: 12px; line-height: 16px; display: flex; box-shadow: rgba(0, 0, 0, 0.06) 0px 0.5px inset; }
+.clp-demo__line { text-overflow: ellipsis; white-space: nowrap; flex: 1 1 auto; min-width: 0px; overflow: hidden; }
+.clp-demo__line b { color: var(--clp-demo-agent); font-weight: 500; transition: color 0.2s; }
+.clp-demo__time { color: rgba(0, 0, 0, 0.3); flex: 0 0 auto; }
+.clp-demo__mark { flex: 0 0 auto; grid-template-columns: repeat(3, 3px); grid-auto-rows: 3px; place-content: center; gap: 1.5px; width: 16px; height: 16px; display: grid; }
+.clp-demo__mark i { background: var(--clp-demo-agent); opacity: 0; border-radius: 0.75px; transition: background-color 0.2s; }
+.clp-demo__mark i[data-on] { opacity: 1; }
+.clp-demo__row .clp-demo__mark { background: color-mix(in srgb, var(--clp-demo-agent) 10%, transparent); border-radius: 7px; width: 28px; height: 28px; transition: background-color 0.2s; }
+:where(.dark, [data-theme="dark"]) .clp-demo__card { background: rgb(20, 20, 22); box-shadow: rgba(255, 255, 255, 0.1) 0px 0px 0px 0.5px, rgba(0, 0, 0, 0.4) 0px 1px 2px; }
+:where(.dark, [data-theme="dark"]) .clp-demo__name { color: rgb(255, 255, 255); }
+:where(.dark, [data-theme="dark"]) .clp-demo :is(.clp-demo__meta, .clp-demo__foot) { color: rgba(255, 255, 255, 0.46); }
+:where(.dark, [data-theme="dark"]) .clp-demo__time { color: rgba(255, 255, 255, 0.3); }
+:where(.dark, [data-theme="dark"]) .clp-demo__foot { box-shadow: rgba(255, 255, 255, 0.08) 0px 0.5px inset; }
+:where(.dark, [data-theme="dark"]) .clp-demo__row .clp-demo__mark { background: color-mix(in srgb, var(--clp-demo-agent) 16%, transparent); }
+.clp-demo--classic { color: rgb(23, 23, 23); }
+.clp-demo--classic .clp-demo__card { border-radius: 16px; outline: 4px solid rgb(240, 240, 240); box-shadow: rgb(236, 236, 236) 0px 0px 0px 1px, rgba(0, 0, 0, 0.04) 0px 1px 2px; }
+.clp-demo--classic .clp-demo__row { padding: 16px 16px 16px 18px; }
+.clp-demo--classic .clp-demo__name { color: rgb(23, 23, 23); }
+.clp-demo--classic .clp-demo__meta, .clp-demo--classic .clp-demo__foot { color: rgb(143, 143, 143); }
+.clp-demo--classic .clp-demo__foot { height: 44px; padding: 0px 18px; box-shadow: rgb(240, 240, 240) 0px 1px inset; }
+.clp-demo--classic .clp-demo__row .clp-demo__mark { border-radius: 9px; width: 32px; height: 32px; }
+:where(.dark, [data-theme="dark"]) .clp-demo--classic { color: rgb(237, 237, 237); }
+:where(.dark, [data-theme="dark"]) .clp-demo--classic .clp-demo__card { background: rgb(22, 22, 24); outline-color: rgb(17, 17, 19); box-shadow: rgb(42, 42, 46) 0px 0px 0px 1px; }
+:where(.dark, [data-theme="dark"]) .clp-demo--classic .clp-demo__name { color: rgb(237, 237, 237); }
+:where(.dark, [data-theme="dark"]) .clp-demo--classic .clp-demo__foot { box-shadow: rgb(38, 38, 42) 0px 1px inset; }
+.stage:has(.clp-demo) { align-items: start; height: 520px; padding: 56px 24px 40px; }
+@media (max-width: 560px){.stage:has(.clp-demo) { height: auto; min-height: 520px; padding: 48px 12px 320px; }}
+/* live .stage__look uses place-items:inherit so .stage:has() align-items propagates */
+.stage__look:has(> .clp-demo) { place-items: inherit; }

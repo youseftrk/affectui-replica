@@ -1,0 +1,4 @@
+:where(.ui-src) button { margin: 0px; padding: 0px; border: 0px; background: none; font: inherit; color: inherit; cursor: pointer; -webkit-tap-highlight-color: transparent; }
+:where(.ui-src) svg { display: block; flex: 0 0 auto; }
+.stage__look { place-items: inherit; width: 100%; min-width: 0px; height: 100%; display: grid; }
+.recommendation-demo { grid-template-columns: minmax(0px, 440px); place-content: center; width: 100%; display: grid; }

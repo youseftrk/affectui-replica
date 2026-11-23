@@ -1,0 +1,46 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Replica build/extraction caches & screenshots
+shots/
+demobundles/
+tools/extract-*.json
+tools/probes/
+tools/probe-*
+tools/*-demo.jsx
+tools/*-assembled.css
+tools/index-bundle.js
+tools/__pycache__/
+*.tmp.js
+avraw*.html
+avatar*.svg.jsx
+afc-jsx.txt
+lanes-jsx.txt
+
+# Motion video heavy outputs & deps
+video/node_modules/
+video/out/
+video/.remotion/
+video/public/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

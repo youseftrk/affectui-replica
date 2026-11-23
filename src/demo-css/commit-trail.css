@@ -1,0 +1,9 @@
+button.ui-cmtc__branch:hover .ui-cmtc__chev, .ui-cmtc__branch[aria-expanded="true"] .ui-cmtc__chev { color: var(--ui-cmtc-text); }
+button.ui-cmtc__row { cursor: pointer; -webkit-tap-highlight-color: transparent; transition: background-color 140ms; }
+button.ui-cmtc__row:hover, .ui-cmtc__item[data-open] > .ui-cmtc__row { background: var(--ui-cmtc-hover); }
+.cmt-demo { grid-template-columns: minmax(0px, 440px); justify-content: center; width: 100%; display: grid; }
+.cmt-demo:has(.ui-cmt) { grid-template-columns: minmax(0px, 452px); }
+.stage:has(.cmt-demo) { height: 620px; }
+.stage .cmt-demo { align-self: start; margin-top: 36px; padding-inline: 24px; }
+@media (max-width: 760px){.stage:has(.cmt-demo) { height: auto; min-height: 560px; padding-left: 12px; padding-right: 12px; }}
+@media (max-width: 760px){.stage .cmt-demo { margin-top: 56px; padding-inline: 0px; }}

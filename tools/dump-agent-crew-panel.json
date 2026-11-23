@@ -1,0 +1,12 @@
+<anonymous_script>:1
+[{"click":".ui-acrc__node"},{"wait":600},{"dump":".ui-acrc__panel"},{"eval":{"name":"nodeattrs","fn":"(()=>{const n=document.querySelector(\".ui-acrc__node[data-open], .ui-acrc__node[aria-expanded=\\\"true\\\"]\"); return n? n.outerHTML.slice(0,400):\"none\"})()"}, {"eval":{"name":"links","fn":"(()=>{const s=document.querySelector(\".ui-acrc__links\"); return s? s.outerHTML.slice(0,3000):\"none\"})()"}}]
+                                                                                                                                                                                                                                                                          ^
+
+SyntaxError: Expected double-quoted property name in JSON at position 266 (line 1 column 267)
+    at JSON.parse (<anonymous>)
+    at file:///C:/Users/youse/affectui-replica/tools/pro-2-dump.mjs:6:20
+    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)
+    at async node:internal/modules/esm/loader:633:26
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)
+
+Node.js v24.16.0

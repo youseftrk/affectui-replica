@@ -1,0 +1,9 @@
+:where(.ui-drpc) button { margin: 0px; padding: 0px; border: 0px; background: none; font: inherit; color: inherit; cursor: pointer; -webkit-tap-highlight-color: transparent; }
+:where(.ui-drpc) svg { display: block; flex: 0 0 auto; }
+button.ui-drpc__preset:hover:not([aria-selected="true"]) { background: var(--ui-drpc-wash); color: var(--ui-drpc-ink); }
+.stage__look { place-items: inherit; width: 100%; min-width: 0px; height: 100%; display: grid; }
+.drp-demo { width: min(100%, 652px); }
+.stage:has(.drp-demo) { align-items: start; height: 560px; padding: 48px 32px; }
+@media (max-width: 760px){.stage:has(.drp-demo) { height: 640px; padding: 52px 12px 16px; }}
+@media (max-width: 760px){.drp-demo .ui-drp { --ui-drp-panel-width: 100%; display: block; }}
+@media (max-width: 760px){.drp-demo .ui-drpc { --ui-drpc-panel-width: 100%; display: block; }}

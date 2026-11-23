@@ -1,0 +1,12 @@
+:where(.ui-nsc) button { margin: 0px; padding: 0px; border: 0px; background: none; font: inherit; color: inherit; cursor: pointer; -webkit-tap-highlight-color: transparent; }
+:where(.ui-nsc) svg { flex: 0 0 auto; }
+opacity 300ms ease,
+box-shadow 300ms ease; }
+.pricing__notice { background: color-mix(in srgb, var(--text) 5%, transparent); color: var(--text-muted); border-radius: 999px; margin-top: 20px; padding: 8px 14px; font-size: 13.5px; }
+.account__notice { background: color-mix(in srgb, var(--text) 5%, transparent); color: var(--text); border-radius: 12px; margin: 20px 0px; padding: 12px 14px; font-size: 13.5px; }
+.account__notice--success { color: rgb(10, 122, 84); background: rgba(10, 138, 95, 0.09); }
+:where(.dark, [data-theme="dark"]) .account__notice--success { color: rgb(79, 209, 161); background: rgba(79, 209, 161, 0.12); }
+.stage__look { place-items: inherit; width: 100%; min-width: 0px; height: 100%; display: grid; }
+.team__notice { color: var(--text-muted); margin-top: 10px; }
+.account__notice--error { color: rgb(229, 72, 77); background: rgba(229, 72, 77, 0.09); }
+.notice-demo { grid-template-columns: minmax(0px, 380px); place-content: center; width: 100%; display: grid; }

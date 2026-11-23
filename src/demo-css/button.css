@@ -1,0 +1,39 @@
+:where(.ui-ts) button { margin: 0px; padding: 0px; border: 0px; background: none; font: inherit; color: inherit; cursor: pointer; }
+color 140ms ease,
+box-shadow 140ms ease,
+transform 160ms var(--ui-btnc-ease),
+opacity 140ms ease; }
+:where(a, button, [tabindex], summary):where(:focus-visible) { border-radius: 6px; }
+.menu__theme button { height: 22px; padding: 0px 6px; }
+.segmented button[aria-selected="true"], .segmented button[aria-checked="true"], .pm-tabs button[aria-selected="true"], .theme-switch .icon-btn[aria-checked="true"] { background: var(--card); color: var(--text); box-shadow: rgba(0, 0, 0, 0.08) 0px 1px 2px, rgba(0, 0, 0, 0.06) 0px 0px 0px 0.5px; }
+.segmented button { border-radius: var(--radius-pill); height: 30px; color: var(--text-muted); cursor: pointer; transition: background-color var(--duration) ease, color var(--duration) ease; background: 0px 0px; border: 0px; align-items: center; gap: 6px; padding: 0px 12px; font-weight: 500; display: inline-flex; }
+.segmented button:hover { color: var(--text); }
+.underline-tabs button { height: 34px; color: var(--text-muted); cursor: pointer; background: 0px 0px; border-width: 0px 0px 1.5px; border-style: none none solid; border-color: currentcolor currentcolor rgba(0, 0, 0, 0); border-image: none; margin-bottom: -1px; padding: 0px; font-weight: 500; }
+.underline-tabs button[aria-selected="true"] { border-color: var(--text); color: var(--text); }
+.pm-tabs button { border-radius: var(--radius-pill); height: 24px; color: var(--text-muted); cursor: pointer; background: 0px 0px; border: 0px; padding: 0px 10px; font-size: 12.5px; }
+.email-offer__row button { background: linear-gradient(180deg, var(--dark-btn-top), var(--dark-btn-bottom)); height: 34px; box-shadow: 0 0 0 1px var(--dark-btn-ring), inset 0 1px 0 #ffffff1f; font-style: inherit; font-variant: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-language-override: inherit; color: var(--dark-btn-text); cursor: pointer; border: 0px; border-radius: 10px; flex: 0 0 auto; padding: 0px 14px; font-size: 14px; font-weight: 500; transition: filter 0.16s; }
+.email-offer__row button:hover { filter: brightness(1.12); }
+.email-offer__row button:disabled { opacity: 0.7; cursor: default; }
+.seats__stepper button { border-radius: var(--radius-pill); width: 26px; height: 26px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-language-override: inherit; color: var(--text); cursor: pointer; background: 0px 0px; border: 0px; font-size: 15px; transition: background-color 0.16s, opacity 0.16s; }
+.seats__stepper button:hover:not(:disabled) { background: var(--card); box-shadow: rgba(0, 0, 0, 0.08) 0px 1px 2px; }
+.seats__stepper button:disabled { opacity: 0.3; cursor: default; }
+.style-switch button { gap: 7px; padding: 0px 11px 0px 9px; }
+.style-switch button[data-look] svg, .stage__style .stage__theme-btn[data-look] { color: var(--look); }
+.style-switch button[data-look][aria-checked="false"] svg { opacity: 0.7; }
+.style-switch button[data-look][aria-checked="true"] { background: color-mix(in srgb, var(--look) 11%, var(--card)); color: var(--look); box-shadow: inset 0 0 0 .5px color-mix(in srgb, var(--look) 35%, transparent), 0 1px 2px #0000000d; }
+.style-switch button[data-look][aria-checked="true"] svg { --switch-card: color-mix(in srgb, var(--look) 6%, var(--card)); }
+.style-switch--compact button { gap: 6px; height: 24px; padding: 0px 9px 0px 7px; font-size: 12.5px; }
+.style-switch--wide button { flex: 1 1 0%; justify-content: center; }
+.style-switch--wide button[data-look][aria-checked="false"] { color: color-mix(in srgb, var(--look) 70%, var(--text-muted)); }
+.style-switch--wide button[data-look][aria-checked="false"]:hover { color: var(--look); }
+.style-switch button { border-radius: 7px; }
+.style-switch--compact button { border-radius: 6px; }
+.button-demo { place-items: center; display: grid; }
+.button-demo__row { flex-wrap: wrap; justify-content: center; align-items: center; gap: 10px; display: flex; }
+.button-demo__compact { display: none; }
+.button-demo__showcase { text-align: center; gap: 22px; display: grid; }
+.button-demo__showcase section { gap: 10px; display: grid; }
+.button-demo__showcase h4 { color: var(--text-muted); margin: 0px; font-size: 13px; font-weight: 400; }
+.button-demo__status { min-height: 1.4em; color: var(--text-muted); margin: 4px 0px 0px; font-size: 13px; }
+.button-demo__slot { justify-content: center; display: inline-flex; }
+.stage .button-demo .ui-buttonc { zoom: 1.15; }

@@ -1,0 +1,7 @@
+:where(.ui-cbc) button { margin: 0px; padding: 0px; border: 0px; background: none; font: inherit; color: inherit; cursor: pointer; }
+:where(.ui-cbc) :is(h3, p, ul) { margin: 0px; padding: 0px; }
+:where(.ui-cbc) ul { list-style: none; }
+:where(.ui-cbc) svg { display: block; flex: 0 0 auto; }
+.cb-demo { grid-template-columns: minmax(0px, 360px); place-content: center; width: 100%; display: grid; }
+.stage:has(.cb-demo) { height: 480px; }
+@media (max-width: 760px){.stage:has(.cb-demo) { align-items: start; height: 520px; padding: 120px 16px 24px; }}

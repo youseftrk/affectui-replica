@@ -1,0 +1,7 @@
+:where(.ui-jbc) button { margin: 0px; padding: 0px; border: 0px; background: none; font: inherit; color: inherit; text-align: inherit; cursor: pointer; -webkit-tap-highlight-color: transparent; }
+.stage__look { place-items: inherit; width: 100%; min-width: 0px; height: 100%; display: grid; }
+.jb-demo { grid-template-columns: minmax(0px, 680px); justify-content: center; width: 100%; display: grid; }
+.stage:has(.jb-demo) { height: 800px; }
+.stage .jb-demo { align-self: start; margin-top: 12px; padding-inline: 24px; }
+@media (max-width: 760px){.stage:has(.jb-demo) { height: 1080px; padding-left: 12px; padding-right: 12px; }}
+@media (max-width: 760px){.stage .jb-demo { margin-top: 56px; padding-inline: 0px; }}

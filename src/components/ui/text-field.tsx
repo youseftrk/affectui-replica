@@ -1,0 +1,7 @@
+// @ts-nocheck
+// Ported verbatim from live demo bundle (react + jsx-runtime shimmed).
+import * as r from 'react';
+import { jsx as __jsx, jsxs as __jsxs, Fragment as __Fragment } from 'react/jsx-runtime';
+const i = { jsx: __jsx, jsxs: __jsxs, Fragment: __Fragment };
+import{t as n}from"./_deps/component.clean-BJVC9q3R";
+var a=/^[a-z0-9-]*$/,o=/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;function s(){let[e,t]=(0,r.useState)(`Maya Labs`),[s,c]=(0,r.useState)(`maya-labs`),[l,u]=(0,r.useState)(`maya@acme`),[d,f]=(0,r.useState)(`orbit-lantern-42`);return(0,i.jsx)(`div`,{className:`tf-demo`,children:(0,i.jsxs)(`form`,{className:`tf-democ`,onSubmit:e=>e.preventDefault(),noValidate:!0,children:[(0,i.jsx)(n,{label:`Workspace name`,value:e,onChange:e=>t(e.target.value),maxLength:32,counter:!0,clearable:!0}),(0,i.jsx)(n,{label:`Workspace URL`,prefix:`acme.app/`,value:s,onChange:e=>c(e.target.value),spellCheck:!1,autoCapitalize:`none`,hint:`Lowercase letters, numbers and dashes.`,error:a.test(s)?void 0:`Only lowercase letters, numbers and dashes.`}),(0,i.jsx)(n,{label:`Billing email`,type:`email`,value:l,onChange:e=>u(e.target.value),optional:!0,error:l&&!o.test(l)?`Enter a full email, like maya@acme.com`:void 0,hint:`Invoices go here.`}),(0,i.jsx)(n,{label:`Password`,type:`password`,value:d,onChange:e=>f(e.target.value),autoComplete:`new-password`}),(0,i.jsx)(n,{label:`API key`,value:`aui_demo_4f9a2c71e8b3`,readOnly:!0,copyable:!0,inputClassName:`tf-democ__mono`})]})})}export{s as default};

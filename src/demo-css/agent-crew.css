@@ -1,0 +1,4 @@
+.stage__look { place-items: inherit; width: 100%; min-width: 0px; height: 100%; display: grid; }
+.acr-demo { grid-template-columns: minmax(0px, 760px); justify-content: center; width: 100%; display: grid; }
+.stage:has(.acr-demo) { height: auto; min-height: 700px; }
+@media (max-width: 760px){.stage:has(.acr-demo) { padding: 56px 12px 16px; }}

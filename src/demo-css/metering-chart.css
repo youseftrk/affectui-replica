@@ -1,0 +1,2 @@
+.stage__look { place-items: inherit; width: 100%; min-width: 0px; height: 100%; display: grid; }
+.mtr-demo { grid-template-columns: minmax(0px, 520px); justify-content: center; width: 100%; display: grid; }

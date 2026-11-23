@@ -1,0 +1,11 @@
+:where(.ui-rvcc) :is(button, input, textarea) { margin: 0px; padding: 0px; border: 0px; background: none; font: inherit; color: inherit; letter-spacing: inherit; text-align: inherit; -webkit-tap-highlight-color: transparent; }
+:where(.ui-rvcc) button { cursor: pointer; }
+:where(.ui-rvcc) button:disabled { cursor: default; }
+:where(.ui-rvcc) :is(p, dl, dd, h3, ul, ol) { margin: 0px; padding: 0px; }
+a.ui-rvcc__source:hover { color: var(--ui-rvcc-ink); }
+.stage__look { place-items: inherit; width: 100%; min-width: 0px; height: 100%; display: grid; }
+.rvc-demo { grid-template-columns: minmax(0px, 900px); justify-content: center; width: 100%; display: grid; }
+.stage:has(.rvc-demo) { height: 670px; }
+.stage .rvc-demo { align-self: center; padding-inline: 24px; }
+@media (max-width: 760px){.stage:has(.rvc-demo) { height: auto; padding-bottom: 12px; padding-left: 12px; padding-right: 12px; }}
+@media (max-width: 760px){.stage .rvc-demo { margin-top: 84px; padding-inline: 0px; }}

@@ -1,0 +1,5 @@
+:where(.ui-rcp) :where(h2, h3, p, ul) { margin: 0px; padding: 0px; list-style: none; }
+:where(.ui-rcp) button { margin: 0px; padding: 0px; border: 0px; background: none; font: inherit; color: inherit; cursor: pointer; }
+.rcp-demo { grid-template-columns: minmax(0px, 920px); justify-content: center; width: 100%; display: grid; }
+.stage:has(.rcp-demo) { height: 640px; }
+@media (max-width: 760px){.stage:has(.rcp-demo) { height: auto; padding: 16px 12px; }}
